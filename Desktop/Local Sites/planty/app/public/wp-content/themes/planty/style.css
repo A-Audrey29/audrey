@@ -1,0 +1,76 @@
+/*
+Theme Name:  Planty
+theme URI:   https
+Description: thème Planty basé sur le thème Blankslate
+Author:
+AuthorURI:
+Template:    blankslate
+Version:     1.0.0
+License:
+License URI:
+Tags:        boisson energisante, plante, naturelle
+Text Domain: Planty
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --vert: #3b8e46;
+    --blanc: #FFFFFF;
+    --corail: #DC9F96;
+}
+
+body {
+    font-family: 'Syne', sans-serif;
+    background-color: #E5E5E5;
+
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.h1 {
+    color: var(--vert);
+}
+
+.ul {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+/* header*/
+
+.nav_bar {
+    width: 100%;
+    height: 80px;
+    color: black;
+    background-color: var(--blanc);
+    padding-top: 30px;
+    padding-bottom: 31px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_bar_menu {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.commander {
+    color: var(--blanc);
+    background-color: var(--corail);
+    padding: 100% 61px 32px 61px;
+}
+
+/* Footer */
