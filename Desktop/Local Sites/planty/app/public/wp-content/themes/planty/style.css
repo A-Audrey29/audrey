@@ -43,6 +43,11 @@ body {
 
 /* header*/
 
+.logo {
+    height: 19px;
+    /* ne fonctionne pas */
+}
+
 .nav_bar {
     width: 100%;
     height: 80px;

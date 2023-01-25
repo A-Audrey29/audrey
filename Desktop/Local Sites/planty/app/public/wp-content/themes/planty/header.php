@@ -16,7 +16,7 @@
 <body>
     <header class="nav_bar">
         <a class="logo" href="www.planty.com">
-            <img src="themes/planty/assets/logo.png" alt="logo Planty">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/logo.png" alt="logo Planty" />
         </a>
 
         <nav class="nav_bar_menu">
