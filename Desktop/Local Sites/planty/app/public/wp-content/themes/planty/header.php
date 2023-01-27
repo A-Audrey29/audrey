@@ -15,16 +15,15 @@
 
 <body>
     <header class="nav_bar">
-        <a class="logo" href="www.planty.com">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/logo.png" alt="logo Planty" />
+        <a href="www.planty.com">
+            <img class="logo" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/logo.png" alt="logo Planty" />
         </a>
 
         <nav class="nav_bar_menu">
             <ul class="nav">
-                <li class="nav_li"><a class="menu" href="#contact">Nous rencontrer</a></li>
-                <li class="nav_li"><a class="menu hook" href="admin">Admin</a></li>
-                <li class="nav_li"><a class="menu commander" href="#commander">Commander</a></li>
+                <li><a class="menu nav_li" href="#contact">Nous rencontrer</a></li>
+                <li><a class="menu hook nav_li" href="admin">Admin</a></li>
+                <li><a class="menu commander nav_li" href="#commander">Commander</a></li>
             </ul>
         </nav>
-
     </header>

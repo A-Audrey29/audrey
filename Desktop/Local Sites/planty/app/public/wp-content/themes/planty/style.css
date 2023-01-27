@@ -36,7 +36,7 @@ body {
     color: var(--vert);
 }
 
-.ul {
+.nav_li {
     list-style-type: none;
     text-decoration: none;
 }
@@ -44,6 +44,7 @@ body {
 /* header*/
 
 .logo {
+    width: 191px;
     height: 19px;
     /* ne fonctionne pas */
 }
@@ -66,16 +67,18 @@ body {
 }
 
 .nav_bar_menu {
-    width: 40%;
+    width: 50%;
     height: 100%;
+
     display: flex;
     justify-content: space-between;
 }
 
 .commander {
+    height: 80px;
     color: var(--blanc);
     background-color: var(--corail);
-    padding: 100% 61px 32px 61px;
+    padding: 29px 61px 33px 61px;
 }
 
 /* Footer */
