@@ -1,0 +1,285 @@
+[19-Jan-2023 12:41:30 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "SECURE_AUTH_KEY" in /Users/audrey/Desktop/Local Sites/planty/app/public/wp-content/plugins/royal-elementor-addons/freemius/includes/class-freemius.php:4061
+Stack trace:
+#0 /Users/audrey/Desktop/Local Sites/planty/app/public/wp-content/plugins/royal-elementor-addons/freemius/includes/class-freemius.php(3912): Freemius->get_anonymous_id(NULL)
+#1 /Users/audrey/Desktop/Local Sites/planty/app/public/wp-content/plugins/royal-elementor-addons/freemius/includes/class-freemius.php(3964): Freemius->ping()
+#2 /Users/audrey/Desktop/Local Sites/planty/app/public/wp-content/plugins/royal-elementor-addons/freemius/includes/class-freemius.php(4818): Freemius->has_api_connectivity()
+#3 /Users/audrey/Desktop/Local Sites/planty/app/public/wp-content/plugins/royal-elementor-addons/freemius/start.php(522): Freemius->dynamic_init(Array)
+#4 /Users/audrey/Desktop/Local Sites/planty/app/public/wp-content/plugins/royal-elementor-addons/wpr-addons.php(54): fs_dynamic_init(Array)
+#5 /Users/audrey/Desktop/Local Sites/planty/app/public/wp-content/plugins/royal-elementor-addons/wpr-addons.php(78): wpr_fs()
+#6 /Users/audrey/Desktop/Local Sites/planty/app/public/wp-admin/includes/plugin.php(2314): include_once('/Users/audrey/D...')
+#7 /Users/audrey/Desktop/Local Sites/planty/app/public/wp-admin/includes/plugin.php(661): plugin_sandbox_scrape('royal-elementor...')
+#8 /Users/audrey/Desktop/Local Sites/planty/app/public/wp-admin/plugins.php(58): activate_plugin('royal-elementor...', 'http://localhos...', false)
+#9 {main}
+  thrown in /Users/audrey/Desktop/Local Sites/planty/app/public/wp-content/plugins/royal-elementor-addons/freemius/includes/class-freemius.php on line 4061
+[19-Jan-2023 12:41:30 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "SECURE_AUTH_KEY" in /Users/audrey/Desktop/Local Sites/planty/app/public/wp-content/plugins/royal-elementor-addons/freemius/includes/class-freemius.php:4061
+Stack trace:
+#0 /Users/audrey/Desktop/Local Sites/planty/app/public/wp-content/plugins/royal-elementor-addons/freemius/includes/class-freemius.php(3912): Freemius->get_anonymous_id(NULL)
+#1 /Users/audrey/Desktop/Local Sites/planty/app/public/wp-content/plugins/royal-elementor-addons/freemius/includes/class-freemius.php(3964): Freemius->ping()
+#2 /Users/audrey/Desktop/Local Sites/planty/app/public/wp-content/plugins/royal-elementor-addons/freemius/includes/class-freemius.php(4818): Freemius->has_api_connectivity()
+#3 /Users/audrey/Desktop/Local Sites/planty/app/public/wp-content/plugins/royal-elementor-addons/freemius/start.php(522): Freemius->dynamic_init(Array)
+#4 /Users/audrey/Desktop/Local Sites/planty/app/public/wp-content/plugins/royal-elementor-addons/wpr-addons.php(54): fs_dynamic_init(Array)
+#5 /Users/audrey/Desktop/Local Sites/planty/app/public/wp-content/plugins/royal-elementor-addons/wpr-addons.php(78): wpr_fs()
+#6 /Users/audrey/Desktop/Local Sites/planty/app/public/wp-admin/includes/plugin.php(2314): include_once('/Users/audrey/D...')
+#7 /Users/audrey/Desktop/Local Sites/planty/app/public/wp-admin/plugins.php(192): plugin_sandbox_scrape('royal-elementor...')
+#8 {main}
+  thrown in /Users/audrey/Desktop/Local Sites/planty/app/public/wp-content/plugins/royal-elementor-addons/freemius/includes/class-freemius.php on line 4061
+[19-Jan-2023 12:41:30 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "SECURE_AUTH_KEY" in /Users/audrey/Desktop/Local Sites/planty/app/public/wp-content/plugins/royal-elementor-addons/freemius/includes/class-freemius.php:4061
+Stack trace:
+#0 /Users/audrey/Desktop/Local Sites/planty/app/public/wp-content/plugins/royal-elementor-addons/freemius/includes/class-freemius.php(3912): Freemius->get_anonymous_id(NULL)
+#1 /Users/audrey/Desktop/Local Sites/planty/app/public/wp-content/plugins/royal-elementor-addons/freemius/includes/class-freemius.php(3964): Freemius->ping()
+#2 /Users/audrey/Desktop/Local Sites/planty/app/public/wp-content/plugins/royal-elementor-addons/freemius/includes/class-freemius.php(4818): Freemius->has_api_connectivity()
+#3 /Users/audrey/Desktop/Local Sites/planty/app/public/wp-content/plugins/royal-elementor-addons/freemius/start.php(522): Freemius->dynamic_init(Array)
+#4 /Users/audrey/Desktop/Local Sites/planty/app/public/wp-content/plugins/royal-elementor-addons/wpr-addons.php(54): fs_dynamic_init(Array)
+#5 /Users/audrey/Desktop/Local Sites/planty/app/public/wp-content/plugins/royal-elementor-addons/wpr-addons.php(78): wpr_fs()
+#6 /Users/audrey/Desktop/Local Sites/planty/app/public/wp-admin/includes/plugin.php(2314): include_once('/Users/audrey/D...')
+#7 /Users/audrey/Desktop/Local Sites/planty/app/public/wp-admin/plugins.php(192): plugin_sandbox_scrape('royal-elementor...')
+#8 {main}
+  thrown in /Users/audrey/Desktop/Local Sites/planty/app/public/wp-content/plugins/royal-elementor-addons/freemius/includes/class-freemius.php on line 4061
+[21-Jan-2023 15:33:36 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "SECURE_AUTH_KEY" in /Users/audrey/Desktop/Local Sites/planty/app/public/wp-content/plugins/royal-elementor-addons/freemius/includes/class-freemius.php:4061
+Stack trace:
+#0 /Users/audrey/Desktop/Local Sites/planty/app/public/wp-content/plugins/royal-elementor-addons/freemius/includes/class-freemius.php(3912): Freemius->get_anonymous_id(NULL)
+#1 /Users/audrey/Desktop/Local Sites/planty/app/public/wp-content/plugins/royal-elementor-addons/freemius/includes/class-freemius.php(3964): Freemius->ping()
+#2 /Users/audrey/Desktop/Local Sites/planty/app/public/wp-content/plugins/royal-elementor-addons/freemius/includes/class-freemius.php(4818): Freemius->has_api_connectivity()
+#3 /Users/audrey/Desktop/Local Sites/planty/app/public/wp-content/plugins/royal-elementor-addons/freemius/start.php(522): Freemius->dynamic_init(Array)
+#4 /Users/audrey/Desktop/Local Sites/planty/app/public/wp-content/plugins/royal-elementor-addons/wpr-addons.php(54): fs_dynamic_init(Array)
+#5 /Users/audrey/Desktop/Local Sites/planty/app/public/wp-content/plugins/royal-elementor-addons/wpr-addons.php(78): wpr_fs()
+#6 /Users/audrey/Desktop/Local Sites/planty/app/public/wp-admin/includes/plugin.php(2314): include_once('/Users/audrey/D...')
+#7 /Users/audrey/Desktop/Local Sites/planty/app/public/wp-admin/includes/plugin.php(661): plugin_sandbox_scrape('royal-elementor...')
+#8 /Users/audrey/Desktop/Local Sites/planty/app/public/wp-admin/plugins.php(58): activate_plugin('royal-elementor...', 'http://localhos...', false)
+#9 {main}
+  thrown in /Users/audrey/Desktop/Local Sites/planty/app/public/wp-content/plugins/royal-elementor-addons/freemius/includes/class-freemius.php on line 4061
+[21-Jan-2023 15:33:38 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "SECURE_AUTH_KEY" in /Users/audrey/Desktop/Local Sites/planty/app/public/wp-content/plugins/royal-elementor-addons/freemius/includes/class-freemius.php:4061
+Stack trace:
+#0 /Users/audrey/Desktop/Local Sites/planty/app/public/wp-content/plugins/royal-elementor-addons/freemius/includes/class-freemius.php(3912): Freemius->get_anonymous_id(NULL)
+#1 /Users/audrey/Desktop/Local Sites/planty/app/public/wp-content/plugins/royal-elementor-addons/freemius/includes/class-freemius.php(3964): Freemius->ping()
+#2 /Users/audrey/Desktop/Local Sites/planty/app/public/wp-content/plugins/royal-elementor-addons/freemius/includes/class-freemius.php(4818): Freemius->has_api_connectivity()
+#3 /Users/audrey/Desktop/Local Sites/planty/app/public/wp-content/plugins/royal-elementor-addons/freemius/start.php(522): Freemius->dynamic_init(Array)
+#4 /Users/audrey/Desktop/Local Sites/planty/app/public/wp-content/plugins/royal-elementor-addons/wpr-addons.php(54): fs_dynamic_init(Array)
+#5 /Users/audrey/Desktop/Local Sites/planty/app/public/wp-content/plugins/royal-elementor-addons/wpr-addons.php(78): wpr_fs()
+#6 /Users/audrey/Desktop/Local Sites/planty/app/public/wp-admin/includes/plugin.php(2314): include_once('/Users/audrey/D...')
+#7 /Users/audrey/Desktop/Local Sites/planty/app/public/wp-admin/plugins.php(192): plugin_sandbox_scrape('royal-elementor...')
+#8 {main}
+  thrown in /Users/audrey/Desktop/Local Sites/planty/app/public/wp-content/plugins/royal-elementor-addons/freemius/includes/class-freemius.php on line 4061
+[21-Jan-2023 15:33:38 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "SECURE_AUTH_KEY" in /Users/audrey/Desktop/Local Sites/planty/app/public/wp-content/plugins/royal-elementor-addons/freemius/includes/class-freemius.php:4061
+Stack trace:
+#0 /Users/audrey/Desktop/Local Sites/planty/app/public/wp-content/plugins/royal-elementor-addons/freemius/includes/class-freemius.php(3912): Freemius->get_anonymous_id(NULL)
+#1 /Users/audrey/Desktop/Local Sites/planty/app/public/wp-content/plugins/royal-elementor-addons/freemius/includes/class-freemius.php(3964): Freemius->ping()
+#2 /Users/audrey/Desktop/Local Sites/planty/app/public/wp-content/plugins/royal-elementor-addons/freemius/includes/class-freemius.php(4818): Freemius->has_api_connectivity()
+#3 /Users/audrey/Desktop/Local Sites/planty/app/public/wp-content/plugins/royal-elementor-addons/freemius/start.php(522): Freemius->dynamic_init(Array)
+#4 /Users/audrey/Desktop/Local Sites/planty/app/public/wp-content/plugins/royal-elementor-addons/wpr-addons.php(54): fs_dynamic_init(Array)
+#5 /Users/audrey/Desktop/Local Sites/planty/app/public/wp-content/plugins/royal-elementor-addons/wpr-addons.php(78): wpr_fs()
+#6 /Users/audrey/Desktop/Local Sites/planty/app/public/wp-admin/includes/plugin.php(2314): include_once('/Users/audrey/D...')
+#7 /Users/audrey/Desktop/Local Sites/planty/app/public/wp-admin/plugins.php(192): plugin_sandbox_scrape('royal-elementor...')
+#8 {main}
+  thrown in /Users/audrey/Desktop/Local Sites/planty/app/public/wp-content/plugins/royal-elementor-addons/freemius/includes/class-freemius.php on line 4061
+[22-Jan-2023 16:59:54 UTC] PHP Warning:  Undefined array key "tab" in /Users/audrey/Desktop/Local Sites/planty/app/public/wp-content/plugins/royal-elementor-addons/admin/theme-builder.php on line 33
+[22-Jan-2023 16:59:54 UTC] PHP Stack trace:
+[22-Jan-2023 16:59:54 UTC] PHP   1. {main}() /Users/audrey/Desktop/Local Sites/planty/app/public/wp-admin/admin.php:0
+[22-Jan-2023 16:59:54 UTC] PHP   2. do_action($hook_name = 'royal-addons_page_wpr-theme-builder') /Users/audrey/Desktop/Local Sites/planty/app/public/wp-admin/admin.php:259
+[22-Jan-2023 16:59:54 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) /Users/audrey/Desktop/Local Sites/planty/app/public/wp-includes/plugin.php:517
+[22-Jan-2023 16:59:54 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) /Users/audrey/Desktop/Local Sites/planty/app/public/wp-includes/class-wp-hook.php:332
+[22-Jan-2023 16:59:54 UTC] PHP   5. wpr_addons_theme_builder_page('') /Users/audrey/Desktop/Local Sites/planty/app/public/wp-includes/class-wp-hook.php:308
+[22-Jan-2023 16:59:54 UTC] PHP Warning:  Undefined array key "tab" in /Users/audrey/Desktop/Local Sites/planty/app/public/wp-content/plugins/royal-elementor-addons/admin/theme-builder.php on line 33
+[22-Jan-2023 16:59:54 UTC] PHP Stack trace:
+[22-Jan-2023 16:59:54 UTC] PHP   1. {main}() /Users/audrey/Desktop/Local Sites/planty/app/public/wp-admin/admin.php:0
+[22-Jan-2023 16:59:54 UTC] PHP   2. do_action($hook_name = 'royal-addons_page_wpr-theme-builder') /Users/audrey/Desktop/Local Sites/planty/app/public/wp-admin/admin.php:259
+[22-Jan-2023 16:59:54 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) /Users/audrey/Desktop/Local Sites/planty/app/public/wp-includes/plugin.php:517
+[22-Jan-2023 16:59:54 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) /Users/audrey/Desktop/Local Sites/planty/app/public/wp-includes/class-wp-hook.php:332
+[22-Jan-2023 16:59:54 UTC] PHP   5. wpr_addons_theme_builder_page('') /Users/audrey/Desktop/Local Sites/planty/app/public/wp-includes/class-wp-hook.php:308
+[22-Jan-2023 17:00:42 UTC] PHP Warning:  Undefined array key "tab" in /Users/audrey/Desktop/Local Sites/planty/app/public/wp-content/plugins/royal-elementor-addons/admin/theme-builder.php on line 33
+[22-Jan-2023 17:00:42 UTC] PHP Stack trace:
+[22-Jan-2023 17:00:42 UTC] PHP   1. {main}() /Users/audrey/Desktop/Local Sites/planty/app/public/wp-admin/admin.php:0
+[22-Jan-2023 17:00:42 UTC] PHP   2. do_action($hook_name = 'royal-addons_page_wpr-theme-builder') /Users/audrey/Desktop/Local Sites/planty/app/public/wp-admin/admin.php:259
+[22-Jan-2023 17:00:42 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) /Users/audrey/Desktop/Local Sites/planty/app/public/wp-includes/plugin.php:517
+[22-Jan-2023 17:00:42 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) /Users/audrey/Desktop/Local Sites/planty/app/public/wp-includes/class-wp-hook.php:332
+[22-Jan-2023 17:00:42 UTC] PHP   5. wpr_addons_theme_builder_page('') /Users/audrey/Desktop/Local Sites/planty/app/public/wp-includes/class-wp-hook.php:308
+[22-Jan-2023 17:00:42 UTC] PHP Warning:  Undefined array key "tab" in /Users/audrey/Desktop/Local Sites/planty/app/public/wp-content/plugins/royal-elementor-addons/admin/theme-builder.php on line 33
+[22-Jan-2023 17:00:42 UTC] PHP Stack trace:
+[22-Jan-2023 17:00:42 UTC] PHP   1. {main}() /Users/audrey/Desktop/Local Sites/planty/app/public/wp-admin/admin.php:0
+[22-Jan-2023 17:00:42 UTC] PHP   2. do_action($hook_name = 'royal-addons_page_wpr-theme-builder') /Users/audrey/Desktop/Local Sites/planty/app/public/wp-admin/admin.php:259
+[22-Jan-2023 17:00:42 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) /Users/audrey/Desktop/Local Sites/planty/app/public/wp-includes/plugin.php:517
+[22-Jan-2023 17:00:42 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) /Users/audrey/Desktop/Local Sites/planty/app/public/wp-includes/class-wp-hook.php:332
+[22-Jan-2023 17:00:42 UTC] PHP   5. wpr_addons_theme_builder_page('') /Users/audrey/Desktop/Local Sites/planty/app/public/wp-includes/class-wp-hook.php:308
+[22-Jan-2023 17:00:59 UTC] PHP Warning:  Undefined array key "tab" in /Users/audrey/Desktop/Local Sites/planty/app/public/wp-content/plugins/royal-elementor-addons/admin/theme-builder.php on line 33
+[22-Jan-2023 17:00:59 UTC] PHP Stack trace:
+[22-Jan-2023 17:00:59 UTC] PHP   1. {main}() /Users/audrey/Desktop/Local Sites/planty/app/public/wp-admin/admin.php:0
+[22-Jan-2023 17:00:59 UTC] PHP   2. do_action($hook_name = 'royal-addons_page_wpr-theme-builder') /Users/audrey/Desktop/Local Sites/planty/app/public/wp-admin/admin.php:259
+[22-Jan-2023 17:00:59 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) /Users/audrey/Desktop/Local Sites/planty/app/public/wp-includes/plugin.php:517
+[22-Jan-2023 17:00:59 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) /Users/audrey/Desktop/Local Sites/planty/app/public/wp-includes/class-wp-hook.php:332
+[22-Jan-2023 17:00:59 UTC] PHP   5. wpr_addons_theme_builder_page('') /Users/audrey/Desktop/Local Sites/planty/app/public/wp-includes/class-wp-hook.php:308
+[22-Jan-2023 17:00:59 UTC] PHP Warning:  Undefined array key "tab" in /Users/audrey/Desktop/Local Sites/planty/app/public/wp-content/plugins/royal-elementor-addons/admin/theme-builder.php on line 33
+[22-Jan-2023 17:00:59 UTC] PHP Stack trace:
+[22-Jan-2023 17:00:59 UTC] PHP   1. {main}() /Users/audrey/Desktop/Local Sites/planty/app/public/wp-admin/admin.php:0
+[22-Jan-2023 17:00:59 UTC] PHP   2. do_action($hook_name = 'royal-addons_page_wpr-theme-builder') /Users/audrey/Desktop/Local Sites/planty/app/public/wp-admin/admin.php:259
+[22-Jan-2023 17:00:59 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) /Users/audrey/Desktop/Local Sites/planty/app/public/wp-includes/plugin.php:517
+[22-Jan-2023 17:00:59 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) /Users/audrey/Desktop/Local Sites/planty/app/public/wp-includes/class-wp-hook.php:332
+[22-Jan-2023 17:00:59 UTC] PHP   5. wpr_addons_theme_builder_page('') /Users/audrey/Desktop/Local Sites/planty/app/public/wp-includes/class-wp-hook.php:308
+[23-Jan-2023 08:00:32 UTC] PHP Warning:  Undefined array key "tab" in /Users/audrey/Desktop/Local Sites/planty/app/public/wp-content/plugins/royal-elementor-addons/admin/theme-builder.php on line 33
+[23-Jan-2023 08:00:32 UTC] PHP Stack trace:
+[23-Jan-2023 08:00:32 UTC] PHP   1. {main}() /Users/audrey/Desktop/Local Sites/planty/app/public/wp-admin/admin.php:0
+[23-Jan-2023 08:00:32 UTC] PHP   2. do_action($hook_name = 'royal-addons_page_wpr-theme-builder') /Users/audrey/Desktop/Local Sites/planty/app/public/wp-admin/admin.php:259
+[23-Jan-2023 08:00:32 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) /Users/audrey/Desktop/Local Sites/planty/app/public/wp-includes/plugin.php:517
+[23-Jan-2023 08:00:32 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) /Users/audrey/Desktop/Local Sites/planty/app/public/wp-includes/class-wp-hook.php:332
+[23-Jan-2023 08:00:32 UTC] PHP   5. wpr_addons_theme_builder_page('') /Users/audrey/Desktop/Local Sites/planty/app/public/wp-includes/class-wp-hook.php:308
+[23-Jan-2023 08:00:32 UTC] PHP Warning:  Undefined array key "tab" in /Users/audrey/Desktop/Local Sites/planty/app/public/wp-content/plugins/royal-elementor-addons/admin/theme-builder.php on line 33
+[23-Jan-2023 08:00:32 UTC] PHP Stack trace:
+[23-Jan-2023 08:00:32 UTC] PHP   1. {main}() /Users/audrey/Desktop/Local Sites/planty/app/public/wp-admin/admin.php:0
+[23-Jan-2023 08:00:32 UTC] PHP   2. do_action($hook_name = 'royal-addons_page_wpr-theme-builder') /Users/audrey/Desktop/Local Sites/planty/app/public/wp-admin/admin.php:259
+[23-Jan-2023 08:00:32 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) /Users/audrey/Desktop/Local Sites/planty/app/public/wp-includes/plugin.php:517
+[23-Jan-2023 08:00:32 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) /Users/audrey/Desktop/Local Sites/planty/app/public/wp-includes/class-wp-hook.php:332
+[23-Jan-2023 08:00:32 UTC] PHP   5. wpr_addons_theme_builder_page('') /Users/audrey/Desktop/Local Sites/planty/app/public/wp-includes/class-wp-hook.php:308
+[23-Jan-2023 08:01:56 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/audrey/Desktop/Local Sites/planty/app/public/wp-includes/class-wp-customize-widgets.php on line 900
+[23-Jan-2023 08:01:56 UTC] PHP Stack trace:
+[23-Jan-2023 08:01:56 UTC] PHP   1. {main}() /Users/audrey/Desktop/Local Sites/planty/app/public/wp-admin/customize.php:0
+[23-Jan-2023 08:01:56 UTC] PHP   2. do_action($hook_name = 'customize_controls_print_footer_scripts') /Users/audrey/Desktop/Local Sites/planty/app/public/wp-admin/customize.php:292
+[23-Jan-2023 08:01:56 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) /Users/audrey/Desktop/Local Sites/planty/app/public/wp-includes/plugin.php:517
+[23-Jan-2023 08:01:56 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) /Users/audrey/Desktop/Local Sites/planty/app/public/wp-includes/class-wp-hook.php:332
+[23-Jan-2023 08:01:56 UTC] PHP   5. WP_Customize_Widgets->output_widget_control_templates('') /Users/audrey/Desktop/Local Sites/planty/app/public/wp-includes/class-wp-hook.php:308
+[23-Jan-2023 08:35:31 UTC] PHP Warning:  Undefined array key "tab" in /Users/audrey/Desktop/Local Sites/planty/app/public/wp-content/plugins/royal-elementor-addons/admin/theme-builder.php on line 33
+[23-Jan-2023 08:35:31 UTC] PHP Stack trace:
+[23-Jan-2023 08:35:31 UTC] PHP   1. {main}() /Users/audrey/Desktop/Local Sites/planty/app/public/wp-admin/admin.php:0
+[23-Jan-2023 08:35:31 UTC] PHP   2. do_action($hook_name = 'royal-addons_page_wpr-theme-builder') /Users/audrey/Desktop/Local Sites/planty/app/public/wp-admin/admin.php:259
+[23-Jan-2023 08:35:31 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) /Users/audrey/Desktop/Local Sites/planty/app/public/wp-includes/plugin.php:517
+[23-Jan-2023 08:35:31 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) /Users/audrey/Desktop/Local Sites/planty/app/public/wp-includes/class-wp-hook.php:332
+[23-Jan-2023 08:35:31 UTC] PHP   5. wpr_addons_theme_builder_page('') /Users/audrey/Desktop/Local Sites/planty/app/public/wp-includes/class-wp-hook.php:308
+[23-Jan-2023 08:35:31 UTC] PHP Warning:  Undefined array key "tab" in /Users/audrey/Desktop/Local Sites/planty/app/public/wp-content/plugins/royal-elementor-addons/admin/theme-builder.php on line 33
+[23-Jan-2023 08:35:31 UTC] PHP Stack trace:
+[23-Jan-2023 08:35:31 UTC] PHP   1. {main}() /Users/audrey/Desktop/Local Sites/planty/app/public/wp-admin/admin.php:0
+[23-Jan-2023 08:35:31 UTC] PHP   2. do_action($hook_name = 'royal-addons_page_wpr-theme-builder') /Users/audrey/Desktop/Local Sites/planty/app/public/wp-admin/admin.php:259
+[23-Jan-2023 08:35:31 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) /Users/audrey/Desktop/Local Sites/planty/app/public/wp-includes/plugin.php:517
+[23-Jan-2023 08:35:31 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) /Users/audrey/Desktop/Local Sites/planty/app/public/wp-includes/class-wp-hook.php:332
+[23-Jan-2023 08:35:31 UTC] PHP   5. wpr_addons_theme_builder_page('') /Users/audrey/Desktop/Local Sites/planty/app/public/wp-includes/class-wp-hook.php:308
+[23-Jan-2023 14:53:53 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/audrey/Desktop/Local Sites/planty/app/public/wp-content/plugins/elementor/includes/managers/image.php on line 108
+[23-Jan-2023 14:53:53 UTC] PHP Stack trace:
+[23-Jan-2023 14:53:53 UTC] PHP   1. {main}() /Users/audrey/Desktop/Local Sites/planty/app/public/wp-admin/admin-ajax.php:0
+[23-Jan-2023 14:53:53 UTC] PHP   2. do_action($hook_name = 'wp_ajax_elementor_get_images_details') /Users/audrey/Desktop/Local Sites/planty/app/public/wp-admin/admin-ajax.php:188
+[23-Jan-2023 14:53:53 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) /Users/audrey/Desktop/Local Sites/planty/app/public/wp-includes/plugin.php:517
+[23-Jan-2023 14:53:53 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) /Users/audrey/Desktop/Local Sites/planty/app/public/wp-includes/class-wp-hook.php:332
+[23-Jan-2023 14:53:53 UTC] PHP   5. Elementor\Images_Manager->get_images_details('') /Users/audrey/Desktop/Local Sites/planty/app/public/wp-includes/class-wp-hook.php:308
+[23-Jan-2023 14:53:53 UTC] PHP   6. Elementor\Images_Manager->get_details($id = '1605', $size = 'large', $is_first_time = 'true') /Users/audrey/Desktop/Local Sites/planty/app/public/wp-content/plugins/elementor/includes/managers/image.php:36
+[23-Jan-2023 14:53:53 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/audrey/Desktop/Local Sites/planty/app/public/wp-content/plugins/elementor/includes/managers/image.php on line 108
+[23-Jan-2023 14:53:53 UTC] PHP Stack trace:
+[23-Jan-2023 14:53:53 UTC] PHP   1. {main}() /Users/audrey/Desktop/Local Sites/planty/app/public/wp-admin/admin-ajax.php:0
+[23-Jan-2023 14:53:53 UTC] PHP   2. do_action($hook_name = 'wp_ajax_elementor_get_images_details') /Users/audrey/Desktop/Local Sites/planty/app/public/wp-admin/admin-ajax.php:188
+[23-Jan-2023 14:53:53 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) /Users/audrey/Desktop/Local Sites/planty/app/public/wp-includes/plugin.php:517
+[23-Jan-2023 14:53:53 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) /Users/audrey/Desktop/Local Sites/planty/app/public/wp-includes/class-wp-hook.php:332
+[23-Jan-2023 14:53:53 UTC] PHP   5. Elementor\Images_Manager->get_images_details('') /Users/audrey/Desktop/Local Sites/planty/app/public/wp-includes/class-wp-hook.php:308
+[23-Jan-2023 14:53:53 UTC] PHP   6. Elementor\Images_Manager->get_details($id = '1605', $size = 'large', $is_first_time = 'true') /Users/audrey/Desktop/Local Sites/planty/app/public/wp-content/plugins/elementor/includes/managers/image.php:36
+[23-Jan-2023 14:53:53 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/audrey/Desktop/Local Sites/planty/app/public/wp-content/plugins/elementor/includes/managers/image.php on line 108
+[23-Jan-2023 14:53:53 UTC] PHP Stack trace:
+[23-Jan-2023 14:53:53 UTC] PHP   1. {main}() /Users/audrey/Desktop/Local Sites/planty/app/public/wp-admin/admin-ajax.php:0
+[23-Jan-2023 14:53:53 UTC] PHP   2. do_action($hook_name = 'wp_ajax_elementor_get_images_details') /Users/audrey/Desktop/Local Sites/planty/app/public/wp-admin/admin-ajax.php:188
+[23-Jan-2023 14:53:53 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) /Users/audrey/Desktop/Local Sites/planty/app/public/wp-includes/plugin.php:517
+[23-Jan-2023 14:53:53 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) /Users/audrey/Desktop/Local Sites/planty/app/public/wp-includes/class-wp-hook.php:332
+[23-Jan-2023 14:53:53 UTC] PHP   5. Elementor\Images_Manager->get_images_details('') /Users/audrey/Desktop/Local Sites/planty/app/public/wp-includes/class-wp-hook.php:308
+[23-Jan-2023 14:53:53 UTC] PHP   6. Elementor\Images_Manager->get_details($id = '1605', $size = 'large', $is_first_time = 'true') /Users/audrey/Desktop/Local Sites/planty/app/public/wp-content/plugins/elementor/includes/managers/image.php:36
+[23-Jan-2023 14:53:53 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/audrey/Desktop/Local Sites/planty/app/public/wp-content/plugins/elementor/includes/managers/image.php on line 108
+[23-Jan-2023 14:53:53 UTC] PHP Stack trace:
+[23-Jan-2023 14:53:53 UTC] PHP   1. {main}() /Users/audrey/Desktop/Local Sites/planty/app/public/wp-admin/admin-ajax.php:0
+[23-Jan-2023 14:53:53 UTC] PHP   2. do_action($hook_name = 'wp_ajax_elementor_get_images_details') /Users/audrey/Desktop/Local Sites/planty/app/public/wp-admin/admin-ajax.php:188
+[23-Jan-2023 14:53:53 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) /Users/audrey/Desktop/Local Sites/planty/app/public/wp-includes/plugin.php:517
+[23-Jan-2023 14:53:53 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) /Users/audrey/Desktop/Local Sites/planty/app/public/wp-includes/class-wp-hook.php:332
+[23-Jan-2023 14:53:53 UTC] PHP   5. Elementor\Images_Manager->get_images_details('') /Users/audrey/Desktop/Local Sites/planty/app/public/wp-includes/class-wp-hook.php:308
+[23-Jan-2023 14:53:53 UTC] PHP   6. Elementor\Images_Manager->get_details($id = '1605', $size = 'large', $is_first_time = 'true') /Users/audrey/Desktop/Local Sites/planty/app/public/wp-content/plugins/elementor/includes/managers/image.php:36
+[23-Jan-2023 14:53:53 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/audrey/Desktop/Local Sites/planty/app/public/wp-content/plugins/elementor/includes/managers/image.php on line 108
+[23-Jan-2023 14:53:53 UTC] PHP Stack trace:
+[23-Jan-2023 14:53:53 UTC] PHP   1. {main}() /Users/audrey/Desktop/Local Sites/planty/app/public/wp-admin/admin-ajax.php:0
+[23-Jan-2023 14:53:53 UTC] PHP   2. do_action($hook_name = 'wp_ajax_elementor_get_images_details') /Users/audrey/Desktop/Local Sites/planty/app/public/wp-admin/admin-ajax.php:188
+[23-Jan-2023 14:53:53 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) /Users/audrey/Desktop/Local Sites/planty/app/public/wp-includes/plugin.php:517
+[23-Jan-2023 14:53:53 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) /Users/audrey/Desktop/Local Sites/planty/app/public/wp-includes/class-wp-hook.php:332
+[23-Jan-2023 14:53:53 UTC] PHP   5. Elementor\Images_Manager->get_images_details('') /Users/audrey/Desktop/Local Sites/planty/app/public/wp-includes/class-wp-hook.php:308
+[23-Jan-2023 14:53:53 UTC] PHP   6. Elementor\Images_Manager->get_details($id = '1605', $size = 'large', $is_first_time = 'true') /Users/audrey/Desktop/Local Sites/planty/app/public/wp-content/plugins/elementor/includes/managers/image.php:36
+[23-Jan-2023 14:53:53 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/audrey/Desktop/Local Sites/planty/app/public/wp-content/plugins/elementor/includes/managers/image.php on line 108
+[23-Jan-2023 14:53:53 UTC] PHP Stack trace:
+[23-Jan-2023 14:53:53 UTC] PHP   1. {main}() /Users/audrey/Desktop/Local Sites/planty/app/public/wp-admin/admin-ajax.php:0
+[23-Jan-2023 14:53:53 UTC] PHP   2. do_action($hook_name = 'wp_ajax_elementor_get_images_details') /Users/audrey/Desktop/Local Sites/planty/app/public/wp-admin/admin-ajax.php:188
+[23-Jan-2023 14:53:53 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) /Users/audrey/Desktop/Local Sites/planty/app/public/wp-includes/plugin.php:517
+[23-Jan-2023 14:53:53 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) /Users/audrey/Desktop/Local Sites/planty/app/public/wp-includes/class-wp-hook.php:332
+[23-Jan-2023 14:53:53 UTC] PHP   5. Elementor\Images_Manager->get_images_details('') /Users/audrey/Desktop/Local Sites/planty/app/public/wp-includes/class-wp-hook.php:308
+[23-Jan-2023 14:53:53 UTC] PHP   6. Elementor\Images_Manager->get_details($id = '1605', $size = 'large', $is_first_time = 'true') /Users/audrey/Desktop/Local Sites/planty/app/public/wp-content/plugins/elementor/includes/managers/image.php:36
+[23-Jan-2023 14:53:53 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/audrey/Desktop/Local Sites/planty/app/public/wp-content/plugins/elementor/includes/managers/image.php on line 108
+[23-Jan-2023 14:53:53 UTC] PHP Stack trace:
+[23-Jan-2023 14:53:53 UTC] PHP   1. {main}() /Users/audrey/Desktop/Local Sites/planty/app/public/wp-admin/admin-ajax.php:0
+[23-Jan-2023 14:53:53 UTC] PHP   2. do_action($hook_name = 'wp_ajax_elementor_get_images_details') /Users/audrey/Desktop/Local Sites/planty/app/public/wp-admin/admin-ajax.php:188
+[23-Jan-2023 14:53:53 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) /Users/audrey/Desktop/Local Sites/planty/app/public/wp-includes/plugin.php:517
+[23-Jan-2023 14:53:53 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) /Users/audrey/Desktop/Local Sites/planty/app/public/wp-includes/class-wp-hook.php:332
+[23-Jan-2023 14:53:53 UTC] PHP   5. Elementor\Images_Manager->get_images_details('') /Users/audrey/Desktop/Local Sites/planty/app/public/wp-includes/class-wp-hook.php:308
+[23-Jan-2023 14:53:53 UTC] PHP   6. Elementor\Images_Manager->get_details($id = '1605', $size = 'large', $is_first_time = 'true') /Users/audrey/Desktop/Local Sites/planty/app/public/wp-content/plugins/elementor/includes/managers/image.php:36
+[23-Jan-2023 14:53:53 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/audrey/Desktop/Local Sites/planty/app/public/wp-content/plugins/elementor/includes/managers/image.php on line 108
+[23-Jan-2023 14:53:53 UTC] PHP Stack trace:
+[23-Jan-2023 14:53:53 UTC] PHP   1. {main}() /Users/audrey/Desktop/Local Sites/planty/app/public/wp-admin/admin-ajax.php:0
+[23-Jan-2023 14:53:53 UTC] PHP   2. do_action($hook_name = 'wp_ajax_elementor_get_images_details') /Users/audrey/Desktop/Local Sites/planty/app/public/wp-admin/admin-ajax.php:188
+[23-Jan-2023 14:53:53 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) /Users/audrey/Desktop/Local Sites/planty/app/public/wp-includes/plugin.php:517
+[23-Jan-2023 14:53:53 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) /Users/audrey/Desktop/Local Sites/planty/app/public/wp-includes/class-wp-hook.php:332
+[23-Jan-2023 14:53:53 UTC] PHP   5. Elementor\Images_Manager->get_images_details('') /Users/audrey/Desktop/Local Sites/planty/app/public/wp-includes/class-wp-hook.php:308
+[23-Jan-2023 14:53:53 UTC] PHP   6. Elementor\Images_Manager->get_details($id = '1605', $size = 'large', $is_first_time = 'true') /Users/audrey/Desktop/Local Sites/planty/app/public/wp-content/plugins/elementor/includes/managers/image.php:36
+[24-Jan-2023 11:25:54 UTC] PHP Warning:  Une erreur imprévue est survenue. Il pourrait y avoir un problème avec WordPress.org ou la configuration de ce serveur. Si vous continuez à rencontrer ce problème, veuillez vous rendre sur les <a href="https://wpfr.net/support">forums de support</a>. (WordPress n’a pas pu établir de connexion sécurisée vers WordPress.org. Veuillez contacter l’administrateur ou l’administratrice de votre serveur.) in /Users/audrey/Desktop/Local Sites/planty/app/public/wp-includes/update.php on line 447
+[24-Jan-2023 11:25:54 UTC] PHP Stack trace:
+[24-Jan-2023 11:25:54 UTC] PHP   1. {main}() /Users/audrey/Desktop/Local Sites/planty/app/public/wp-cron.php:0
+[24-Jan-2023 11:25:54 UTC] PHP   2. do_action_ref_array($hook_name = 'wp_version_check', $args = []) /Users/audrey/Desktop/Local Sites/planty/app/public/wp-cron.php:188
+[24-Jan-2023 11:25:54 UTC] PHP   3. WP_Hook->do_action($args = []) /Users/audrey/Desktop/Local Sites/planty/app/public/wp-includes/plugin.php:565
+[24-Jan-2023 11:25:54 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = []) /Users/audrey/Desktop/Local Sites/planty/app/public/wp-includes/class-wp-hook.php:332
+[24-Jan-2023 11:25:54 UTC] PHP   5. wp_version_check($extra_stats = *uninitialized*, $force_check = *uninitialized*) /Users/audrey/Desktop/Local Sites/planty/app/public/wp-includes/class-wp-hook.php:308
+[24-Jan-2023 11:25:54 UTC] PHP   6. do_action($hook_name = 'wp_maybe_auto_update') /Users/audrey/Desktop/Local Sites/planty/app/public/wp-includes/update.php:290
+[24-Jan-2023 11:25:54 UTC] PHP   7. WP_Hook->do_action($args = [0 => '']) /Users/audrey/Desktop/Local Sites/planty/app/public/wp-includes/plugin.php:517
+[24-Jan-2023 11:25:54 UTC] PHP   8. WP_Hook->apply_filters($value = '', $args = [0 => '']) /Users/audrey/Desktop/Local Sites/planty/app/public/wp-includes/class-wp-hook.php:332
+[24-Jan-2023 11:25:54 UTC] PHP   9. wp_maybe_auto_update('') /Users/audrey/Desktop/Local Sites/planty/app/public/wp-includes/class-wp-hook.php:308
+[24-Jan-2023 11:25:54 UTC] PHP  10. WP_Automatic_Updater->run() /Users/audrey/Desktop/Local Sites/planty/app/public/wp-includes/update.php:850
+[24-Jan-2023 11:25:54 UTC] PHP  11. wp_update_plugins($extra_stats = *uninitialized*) /Users/audrey/Desktop/Local Sites/planty/app/public/wp-admin/includes/class-wp-automatic-updater.php:526
+[24-Jan-2023 11:25:54 UTC] PHP  12. trigger_error($message = 'Une erreur imprévue est survenue. Il pourrait y avoir un problème avec WordPress.org ou la configuration de ce serveur. Si vous continuez à rencontrer ce problème, veuillez vous rendre sur les <a href="https://wpfr.net/support">forums de support</a>. (WordPress n’a pas pu établir de connexion sécurisée vers WordPress.org. Veuillez contacter l’administrateur ou l’administratrice de votre serveur.)', $error_level = 512) /Users/audrey/Desktop/Local Sites/planty/app/public/wp-includes/update.php:447
+[25-Jan-2023 00:14:54 UTC] PHP Warning:  Une erreur imprévue est survenue. Il pourrait y avoir un problème avec WordPress.org ou la configuration de ce serveur. Si vous continuez à rencontrer ce problème, veuillez vous rendre sur les <a href="https://wpfr.net/support">forums de support</a>. (WordPress n’a pas pu établir de connexion sécurisée vers WordPress.org. Veuillez contacter l’administrateur ou l’administratrice de votre serveur.) in /Users/audrey/Desktop/Local Sites/planty/app/public/wp-includes/update.php on line 447
+[25-Jan-2023 00:14:54 UTC] PHP Stack trace:
+[25-Jan-2023 00:14:54 UTC] PHP   1. {main}() /Users/audrey/Desktop/Local Sites/planty/app/public/wp-cron.php:0
+[25-Jan-2023 00:14:54 UTC] PHP   2. do_action_ref_array($hook_name = 'wp_update_plugins', $args = []) /Users/audrey/Desktop/Local Sites/planty/app/public/wp-cron.php:188
+[25-Jan-2023 00:14:54 UTC] PHP   3. WP_Hook->do_action($args = []) /Users/audrey/Desktop/Local Sites/planty/app/public/wp-includes/plugin.php:565
+[25-Jan-2023 00:14:54 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = []) /Users/audrey/Desktop/Local Sites/planty/app/public/wp-includes/class-wp-hook.php:332
+[25-Jan-2023 00:14:54 UTC] PHP   5. wp_update_plugins($extra_stats = *uninitialized*) /Users/audrey/Desktop/Local Sites/planty/app/public/wp-includes/class-wp-hook.php:308
+[25-Jan-2023 00:14:54 UTC] PHP   6. trigger_error($message = 'Une erreur imprévue est survenue. Il pourrait y avoir un problème avec WordPress.org ou la configuration de ce serveur. Si vous continuez à rencontrer ce problème, veuillez vous rendre sur les <a href="https://wpfr.net/support">forums de support</a>. (WordPress n’a pas pu établir de connexion sécurisée vers WordPress.org. Veuillez contacter l’administrateur ou l’administratrice de votre serveur.)', $error_level = 512) /Users/audrey/Desktop/Local Sites/planty/app/public/wp-includes/update.php:447
+[25-Jan-2023 19:41:51 UTC] PHP Fatal error:  Uncaught Error: Class "Elementor\Utils" not found in /Users/audrey/Desktop/Local Sites/planty/app/public/wp-content/plugins/elementor/core/logger/manager.php:40
+Stack trace:
+#0 [internal function]: Elementor\Core\Logger\Manager->shutdown()
+#1 {main}
+  thrown in /Users/audrey/Desktop/Local Sites/planty/app/public/wp-content/plugins/elementor/core/logger/manager.php on line 40
+[25-Jan-2023 19:42:05 UTC] PHP Warning:  file_get_contents(/Users/audrey/Desktop/Local Sites/planty/app/public/wp-content/plugins/elementor/elementor.php): Failed to open stream: No such file or directory in /Users/audrey/Desktop/Local Sites/planty/app/public/wp-includes/functions.php on line 6620
+[25-Jan-2023 19:42:05 UTC] PHP Stack trace:
+[25-Jan-2023 19:42:05 UTC] PHP   1. {main}() /Users/audrey/Desktop/Local Sites/planty/app/public/wp-admin/admin-ajax.php:0
+[25-Jan-2023 19:42:05 UTC] PHP   2. do_action($hook_name = 'wp_ajax_delete-plugin') /Users/audrey/Desktop/Local Sites/planty/app/public/wp-admin/admin-ajax.php:188
+[25-Jan-2023 19:42:05 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) /Users/audrey/Desktop/Local Sites/planty/app/public/wp-includes/plugin.php:517
+[25-Jan-2023 19:42:05 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) /Users/audrey/Desktop/Local Sites/planty/app/public/wp-includes/class-wp-hook.php:332
+[25-Jan-2023 19:42:05 UTC] PHP   5. wp_ajax_delete_plugin('') /Users/audrey/Desktop/Local Sites/planty/app/public/wp-includes/class-wp-hook.php:308
+[25-Jan-2023 19:42:05 UTC] PHP   6. get_plugin_data($plugin_file = '/Users/audrey/Desktop/Local Sites/planty/app/public/wp-content/plugins/elementor/elementor.php', $markup = *uninitialized*, $translate = *uninitialized*) /Users/audrey/Desktop/Local Sites/planty/app/public/wp-admin/includes/ajax-actions.php:4668
+[25-Jan-2023 19:42:05 UTC] PHP   7. get_file_data($file = '/Users/audrey/Desktop/Local Sites/planty/app/public/wp-content/plugins/elementor/elementor.php', $default_headers = ['Name' => 'Plugin Name', 'PluginURI' => 'Plugin URI', 'Version' => 'Version', 'Description' => 'Description', 'Author' => 'Author', 'AuthorURI' => 'Author URI', 'TextDomain' => 'Text Domain', 'DomainPath' => 'Domain Path', 'Network' => 'Network', 'RequiresWP' => 'Requires at least', 'RequiresPHP' => 'Requires PHP', 'UpdateURI' => 'Update URI', '_sitewide' => 'Site Wide Only'], $context = 'plugin') /Users/audrey/Desktop/Local Sites/planty/app/public/wp-admin/includes/plugin.php:91
+[25-Jan-2023 19:42:05 UTC] PHP   8. file_get_contents($filename = '/Users/audrey/Desktop/Local Sites/planty/app/public/wp-content/plugins/elementor/elementor.php', $use_include_path = FALSE, $context = NULL, $offset = 0, $length = 8192) /Users/audrey/Desktop/Local Sites/planty/app/public/wp-includes/functions.php:6620
+[25-Jan-2023 19:42:05 UTC] PHP Warning:  include_once(/Users/audrey/Desktop/Local Sites/planty/app/public/wp-content/plugins/elementor/elementor.php): Failed to open stream: No such file or directory in /Users/audrey/Desktop/Local Sites/planty/app/public/wp-admin/includes/plugin.php on line 1253
+[25-Jan-2023 19:42:05 UTC] PHP Stack trace:
+[25-Jan-2023 19:42:05 UTC] PHP   1. {main}() /Users/audrey/Desktop/Local Sites/planty/app/public/wp-admin/admin-ajax.php:0
+[25-Jan-2023 19:42:05 UTC] PHP   2. do_action($hook_name = 'wp_ajax_delete-plugin') /Users/audrey/Desktop/Local Sites/planty/app/public/wp-admin/admin-ajax.php:188
+[25-Jan-2023 19:42:05 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) /Users/audrey/Desktop/Local Sites/planty/app/public/wp-includes/plugin.php:517
+[25-Jan-2023 19:42:05 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) /Users/audrey/Desktop/Local Sites/planty/app/public/wp-includes/class-wp-hook.php:332
+[25-Jan-2023 19:42:05 UTC] PHP   5. wp_ajax_delete_plugin('') /Users/audrey/Desktop/Local Sites/planty/app/public/wp-includes/class-wp-hook.php:308
+[25-Jan-2023 19:42:05 UTC] PHP   6. delete_plugins($plugins = [0 => 'elementor/elementor.php'], $deprecated = *uninitialized*) /Users/audrey/Desktop/Local Sites/planty/app/public/wp-admin/includes/ajax-actions.php:4698
+[25-Jan-2023 19:42:05 UTC] PHP   7. uninstall_plugin($plugin = 'elementor/elementor.php') /Users/audrey/Desktop/Local Sites/planty/app/public/wp-admin/includes/plugin.php:958
+[25-Jan-2023 19:42:05 UTC] PHP Warning:  include_once(): Failed opening '/Users/audrey/Desktop/Local Sites/planty/app/public/wp-content/plugins/elementor/elementor.php' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/audrey/Desktop/Local Sites/planty/app/public/wp-admin/includes/plugin.php on line 1253
+[25-Jan-2023 19:42:05 UTC] PHP Stack trace:
+[25-Jan-2023 19:42:05 UTC] PHP   1. {main}() /Users/audrey/Desktop/Local Sites/planty/app/public/wp-admin/admin-ajax.php:0
+[25-Jan-2023 19:42:05 UTC] PHP   2. do_action($hook_name = 'wp_ajax_delete-plugin') /Users/audrey/Desktop/Local Sites/planty/app/public/wp-admin/admin-ajax.php:188
+[25-Jan-2023 19:42:05 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) /Users/audrey/Desktop/Local Sites/planty/app/public/wp-includes/plugin.php:517
+[25-Jan-2023 19:42:05 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) /Users/audrey/Desktop/Local Sites/planty/app/public/wp-includes/class-wp-hook.php:332
+[25-Jan-2023 19:42:05 UTC] PHP   5. wp_ajax_delete_plugin('') /Users/audrey/Desktop/Local Sites/planty/app/public/wp-includes/class-wp-hook.php:308
+[25-Jan-2023 19:42:05 UTC] PHP   6. delete_plugins($plugins = [0 => 'elementor/elementor.php'], $deprecated = *uninitialized*) /Users/audrey/Desktop/Local Sites/planty/app/public/wp-admin/includes/ajax-actions.php:4698
+[25-Jan-2023 19:42:05 UTC] PHP   7. uninstall_plugin($plugin = 'elementor/elementor.php') /Users/audrey/Desktop/Local Sites/planty/app/public/wp-admin/includes/plugin.php:958
+[25-Jan-2023 19:42:05 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class "Elementor\Maintenance" not found in /Users/audrey/Desktop/Local Sites/planty/app/public/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /Users/audrey/Desktop/Local Sites/planty/app/public/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#1 /Users/audrey/Desktop/Local Sites/planty/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Users/audrey/Desktop/Local Sites/planty/app/public/wp-admin/includes/plugin.php(1265): do_action('uninstall_eleme...')
+#3 /Users/audrey/Desktop/Local Sites/planty/app/public/wp-admin/includes/plugin.php(958): uninstall_plugin('elementor/eleme...')
+#4 /Users/audrey/Desktop/Local Sites/planty/app/public/wp-admin/includes/ajax-actions.php(4698): delete_plugins(Array)
+#5 /Users/audrey/Desktop/Local Sites/planty/app/public/wp-includes/class-wp-hook.php(308): wp_ajax_delete_plugin('')
+#6 /Users/audrey/Desktop/Local Sites/planty/app/public/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#7 /Users/audrey/Desktop/Local Sites/planty/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /Users/audrey/Desktop/Local Sites/planty/app/public/wp-admin/admin-ajax.php(188): do_action('wp_ajax_delete-...')
+#9 {main}
+  thrown in /Users/audrey/Desktop/Local Sites/planty/app/public/wp-includes/class-wp-hook.php on line 308
+[27-Jan-2023 08:45:57 UTC] Erreur d’événement de replanification de tâche pour le crochet action_scheduler_run_queue. Code d’erreur : invalid_schedule. Message d’erreur : L’évènement planifié n’existe pas.. Données : {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[27-Jan-2023 08:55:27 UTC] Erreur d’événement de replanification de tâche pour le crochet action_scheduler_run_queue. Code d’erreur : invalid_schedule. Message d’erreur : L’évènement planifié n’existe pas.. Données : {"schedule":"every_minute","args":["WP Cron"],"interval":60}

@@ -12,6 +12,7 @@ Tags:        boisson energisante, plante, naturelle
 Text Domain: Planty
 */
 
+
 * {
     margin: 0;
     padding: 0;
@@ -26,6 +27,8 @@ Text Domain: Planty
 body {
     font-family: 'Syne', sans-serif;
     background-color: #E5E5E5;
+    margin-left: auto;
+    margin-right: auto;
 
 
     margin-left: auto;
