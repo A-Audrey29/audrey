@@ -15,13 +15,13 @@
 
 <body>
     <header class="nav_bar">
-        <a href="www.planty.com">
+        <a href="http://localhost:10017/">
             <img class="logo" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/logo.png" alt="logo Planty" />
         </a>
 
         <nav class="nav_bar_menu">
             <ul class="nav">
-                <li><a class="menu nav_li" href="#contact">Nous rencontrer</a></li>
+                <li><a class="menu nav_li" href="http://localhost:10017/nous-rencontrer/">Nous rencontrer</a></li>
                 <li><a class="menu hook nav_li" href="admin">Admin</a></li>
                 <li><a class="menu commander nav_li" href="#commander">Commander</a></li>
             </ul>
