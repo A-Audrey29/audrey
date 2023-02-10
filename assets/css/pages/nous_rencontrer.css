@@ -8,6 +8,7 @@
 
 .title_meet {
     width: 87%;
+    margin-bottom: 27px;
     display: flex;
     justify-content: center;
 }

@@ -2,10 +2,13 @@
     width: 228px;
     height: 19px;
     padding-left: 37px;
+
+    flex-grow: 1;
+    flex-basis: auto;
 }
 
 .nav_bar {
-    width: 100%;
+
     height: 80px;
     color: black;
     background-color: var(--blanc);
@@ -19,6 +22,7 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
+
 }
 
 .nav_bar_menu {
@@ -40,4 +44,12 @@
     color: var(--blanc);
     background-color: var(--corail);
     padding: 29px 61px 33px 61px;
+}
+
+@media all and (max-width: 700px) {
+    /*  .nav {
+        padding-top: 62px;
+        background-color: white;
+        height: 80px;
+    }*/
 }

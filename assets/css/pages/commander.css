@@ -3,8 +3,8 @@
 }
 
 .post-1671 {
-    padding-left: 15%;
-    padding-right: 18%;
+    width: 60%;
+    margin: auto;
 }
 
 .title_order {
@@ -33,15 +33,15 @@
     padding-bottom: 10px;
 }
 
-.container_order_picture {
-    padding-bottom: 10px;
-    height: 128px;
-    width: 193px;
+.wp-block-uagb-container.container_order_picture {
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .commande {
     padding-top: 14px;
     display: flex;
+    justify-content: center;
 }
 
 .quantity {
@@ -186,11 +186,15 @@
 
 .order_forms {
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    color: #FFFFFF;
 }
 
-.forms_columns {
-    display: flex;
-    flex-direction: column;
+.wpcf7-form.init {
+    width: 60%;
+    margin: auto;
 }
 
 .wpcf7-form-control {
@@ -208,10 +212,6 @@
     color: #FFFFFF;
 }
 
-.wpcf7-form.init {
-    color: #FFFFFF;
-}
-
 .wpcf7-submit {
     width: 198px;
     height: 55px;
@@ -222,6 +222,11 @@
 }
 
 @media all and (max-width: 767px) {
+    .post-1671 {
+        width: 80%;
+        margin: auto;
+    }
+
     .title_form_livraison {
         color: #3D9448;
         padding-top: 1px;
