@@ -1,0 +1,229 @@
+.page-id-1671 {
+    background-color: #3D9448;
+}
+
+.post-1671 {
+    padding-left: 15%;
+    padding-right: 18%;
+}
+
+.title_order {
+    color: #FFFFFF;
+    font-weight: 800;
+    font-size: 38px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.wp-block-separator {
+    color: #FFFFFF;
+}
+
+.title_commande {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 30px;
+    padding: 40px 30px 39px 0;
+}
+
+/* section "votre commande"*/
+
+.page-id-1671.wp-image-167 {
+    padding-bottom: 10px;
+}
+
+.container_order_picture {
+    padding-bottom: 10px;
+    height: 128px;
+    width: 193px;
+}
+
+.commande {
+    padding-top: 14px;
+    display: flex;
+}
+
+.quantity {
+    width: 50px;
+    height: 55px;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 6px 0 0 6px;
+}
+
+.more_less {
+    width: 31px;
+    height: 55px;
+    color: #FFFFFF;
+    background-color: #DC9F96;
+    border-radius: 0 6px 6px 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.button_separator {
+    width: 100%;
+    border: 0.5px solid white;
+}
+
+.ok {
+    width: 100px;
+    height: 56px;
+    margin-left: 5%;
+    background-color: #E0B9B4;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+.wp-block-gallery-commander {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.page-id-1671 .is-layout-flex {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 0px;
+}
+
+/* section formulaire */
+
+.title_order_forms {
+    color: #FFFFFF;
+    font-size: 30px;
+    font-weight: 700;
+    padding-top: 50px;
+}
+
+/*.form_separator {
+    position: fixed;
+    left: 50%;
+    height: 447px;
+    border: 1px solid white;
+}
+
+.form_comm {
+    color: #FFFFFF;
+    height: 71px;
+    width: 383px;
+    border-radius: 7%;
+}
+
+.evf-label {
+    color: #FFFFFF;
+}
+
+.form_comm {
+    width: 92%;
+    height: 63px;
+    border-radius: 7px;
+}
+
+.evf-2077-field_Z3nydd90jw-15 {
+    height: 71px;
+}
+
+.input-text {
+    height: 71px;
+}
+
+.evf-submit-container {
+    text-align: center;
+}
+
+.button_order {
+    width: 198px;
+    height: 55px;
+    background-color: #E0B9B4;
+    border-radius: 5%;
+    margin-top: 20px;
+}
+
+.evf-frontend-grid .evf-grid-2 {
+    padding: 0;
+    margin: 0;
+}*/
+
+
+
+/*.form_colomn {
+    display: flex;
+    flex-direction: row;
+}
+
+.form_colomn label {
+    min-width: 0;
+}
+
+
+.ff-el-group {
+    color: #FFFFFF;
+}
+
+.ff-el-form-control {
+    height: 71px;
+}
+
+.ff-t-container .ff-column-container .ff_columns_total_2 {
+    gap: 51px;
+}
+
+.submit_order {
+    width: 198px;
+    height: 55px;
+    background-color: #E0B9B4;
+    border-radius: 5%;
+    margin-top: 20px;
+}
+*/
+
+/* formulaire de contact form7 */
+
+.order_forms {
+    display: flex;
+}
+
+.forms_columns {
+    display: flex;
+    flex-direction: column;
+}
+
+.wpcf7-form-control {
+    height: 71px;
+    width: 383px;
+    border-radius: 7px;
+    border: none;
+}
+
+.label {
+    font-family: Syne, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.wpcf7-form.init {
+    color: #FFFFFF;
+}
+
+.wpcf7-submit {
+    width: 198px;
+    height: 55px;
+    color: #FFFFFF;
+    background-color: #E0B9B4;
+    border-radius: 5%;
+    margin-top: 20px;
+}
+
+@media all and (max-width: 767px) {
+    .title_form_livraison {
+        color: #3D9448;
+        padding-top: 1px;
+    }
+}

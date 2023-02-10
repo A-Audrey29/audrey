@@ -1,0 +1,185 @@
+/*.page-id-1656 h1.entry-title {
+    color: #D2776A;
+    font-weight: 800;
+    font-size: 38px;
+    text-align: center;
+    padding-top: 155px;
+}*/
+
+.title_meet {
+    width: 87%;
+    display: flex;
+    justify-content: center;
+}
+
+.meet {
+    color: #D2776A;
+    font-weight: 800;
+    font-size: 38px;
+    text-align: center;
+    padding-top: 155px;
+    padding-left: 6Opx;
+}
+
+.wp-block-image-flower {
+    width: 145px;
+    height: 150PX;
+    min-width: 120px;
+    padding-top: 55px;
+    padding-left: 9%;
+}
+
+.wp-image-1657 {
+    width: 145px;
+    height: 150px;
+}
+
+.text_team {
+    text-align: center;
+    line-height: 24px;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+.background_team {
+    background-color: #FFFF;
+    padding-bottom: 10px;
+}
+
+.round_team {
+    padding-top: 80px;
+    margin-bottom: 8px;
+    border-radius: 0 0 70% 70%;
+    border: 1px solid rgba(229, 229, 229);
+    color: #ECE2DA;
+    background-color: #ECE2DA;
+}
+
+/* section "L'équipe */
+
+.team {
+    background-color: white;
+    position: relative;
+}
+
+.photo_team {
+    padding-top: 50px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 81px;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.has-text-align-center_team {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 70px;
+}
+
+.text-has-text-align-center {
+    padding-left: 27%;
+    padding-right: 22%;
+}
+
+.is-layout-flex wp-block-gallery-1 photo_team {
+    height: 50px;
+    text-align: center;
+}
+
+.wp-image-1659 {
+    clip-path: ellipse(50% 50%);
+}
+
+.wp-image-1658 {
+    clip-path: ellipse(50% 50%);
+}
+
+.wp-image-2203 {
+    clip-path: ellipse(50% 50%);
+}
+
+.wp-image-1860 {
+    position: absolute;
+    right: 30px;
+    bottom: -1px;
+    height: auto;
+    z-index: 1;
+}
+
+/* section "Nous contacter" */
+
+.has-text-align-center-contact {
+    font-weight: 700;
+    Size: 30px;
+    text-align: center;
+    padding-top: 66px;
+    padding-bottom: 45px;
+}
+
+.wpcf7-form-control.wpcf7-text {
+    margin-top: 13px;
+    margin-bottom: 22px;
+}
+
+.form {
+    background-color: #ECE2DA;
+    padding-left: 35%;
+    padding-right: 35%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.wpcf7-form-control.wpcf7-textarea {
+    height: 271px;
+    margin-top: 13px;
+    margin-bottom: 4px;
+}
+
+.form_contact_submit {
+    text-align: center;
+}
+
+/* positionnement du feuillage */
+
+.wpcf7 {
+    position: relative;
+    z-index: 10;
+}
+
+.wp-image-1668 {
+    position: relative;
+    z-index: 1;
+    bottom: 190px;
+    right: 208px;
+    background-image: url(http://localhost:10017/wp-content/uploads/2023/01/feuillage_formulaire.png);
+}
+
+.wp-block-image-feuille {
+    height: 60px;
+}
+
+.form_contact {
+    border: 1px solid #ECE2DA;
+    max-width: 418px;
+}
+
+/* image footer */
+
+.wp-image-1645-team {
+    width: 100%;
+}
+
+
+@media all and (max-width: 850px) {
+    .form {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}
