@@ -187,8 +187,8 @@
 .order_forms {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
-    gap: 20px;
+    flex-wrap: nowrap;
+    gap: 15%;
     color: #FFFFFF;
 }
 
