@@ -76,7 +76,8 @@
     justify-content: space-evenly;
 }
 
-.has-text-align-center_team {
+.has-text-align-center_team,
+.has-text-align-center-contact {
     font-size: 30px;
     font-weight: 700;
     text-align: center;
@@ -116,16 +117,20 @@
 /* section "Nous contacter" */
 
 .has-text-align-center-contact {
-    font-weight: 700;
-    Size: 30px;
-    text-align: center;
-    padding-top: 66px;
     padding-bottom: 45px;
 }
 
 .wpcf7-form-control.wpcf7-text {
     margin-top: 13px;
     margin-bottom: 22px;
+}
+
+.wpcf7-form.init {
+    /* vaut aussi pour le formuaire de commande */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .form {
@@ -158,7 +163,7 @@
     position: relative;
     z-index: 1;
     bottom: 190px;
-    right: 208px;
+    right: 186px;
     background-image: url(http://localhost:10017/wp-content/uploads/2023/01/feuillage_formulaire.png);
 }
 

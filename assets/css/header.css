@@ -8,7 +8,6 @@
 }
 
 .nav_bar {
-
     height: 80px;
     color: black;
     background-color: var(--blanc);
@@ -16,13 +15,13 @@
     padding-bottom: 31px;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .nav {
     width: 100%;
     display: flex;
     justify-content: space-between;
-
 }
 
 .nav_bar_menu {
@@ -47,9 +46,31 @@
 }
 
 @media all and (max-width: 700px) {
-    /*  .nav {
+    .nav {
         padding-top: 62px;
         background-color: white;
         height: 80px;
-    }*/
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+
+        padding: 40px 0 20px 40px;
+    }
+
+    .logo {
+        width: 100%;
+        height: 19px;
+        padding-left: 37px;
+        background-color: white;
+
+        flex-grow: 1;
+        flex-basis: auto;
+    }
+
+    .nav_bar {
+        width: 100%;
+        background-color: white;
+        margin-bottom: 50px;
+    }
 }

@@ -3,7 +3,7 @@
 }
 
 .post-1671 {
-    width: 60%;
+    width: 860px;
     margin: auto;
 }
 
@@ -97,7 +97,7 @@
     color: #FFFFFF;
     font-size: 30px;
     font-weight: 700;
-    padding-top: 50px;
+    padding: 50px 0 29px 0;
 }
 
 /*.form_separator {
@@ -107,97 +107,30 @@
     border: 1px solid white;
 }
 
-.form_comm {
-    color: #FFFFFF;
-    height: 71px;
-    width: 383px;
-    border-radius: 7%;
-}
-
-.evf-label {
-    color: #FFFFFF;
-}
-
-.form_comm {
-    width: 92%;
-    height: 63px;
-    border-radius: 7px;
-}
-
-.evf-2077-field_Z3nydd90jw-15 {
-    height: 71px;
-}
-
-.input-text {
-    height: 71px;
-}
-
-.evf-submit-container {
-    text-align: center;
-}
-
-.button_order {
-    width: 198px;
-    height: 55px;
-    background-color: #E0B9B4;
-    border-radius: 5%;
-    margin-top: 20px;
-}
-
-.evf-frontend-grid .evf-grid-2 {
-    padding: 0;
-    margin: 0;
-}*/
-
-
-
-/*.form_colomn {
-    display: flex;
-    flex-direction: row;
-}
-
-.form_colomn label {
-    min-width: 0;
-}
-
-
-.ff-el-group {
-    color: #FFFFFF;
-}
-
-.ff-el-form-control {
-    height: 71px;
-}
-
-.ff-t-container .ff-column-container .ff_columns_total_2 {
-    gap: 51px;
-}
-
-.submit_order {
-    width: 198px;
-    height: 55px;
-    background-color: #E0B9B4;
-    border-radius: 5%;
-    margin-top: 20px;
-}
-*/
-
 /* formulaire de contact form7 */
 
 .order_forms {
     display: flex;
     justify-content: center;
     flex-wrap: nowrap;
-    gap: 15%;
+    gap: 12%;
     color: #FFFFFF;
 }
 
 .wpcf7-form.init {
     width: 60%;
     margin: auto;
+    margin-bottom: 93px;
 }
 
 .wpcf7-form-control {
+    height: 71px;
+    width: 383px;
+    border-radius: 7px;
+    border: none;
+}
+
+.wpcf7-form-control.wpcf7-text {
     height: 71px;
     width: 383px;
     border-radius: 7px;
@@ -212,6 +145,7 @@
     color: #FFFFFF;
 }
 
+
 .wpcf7-submit {
     width: 198px;
     height: 55px;
@@ -220,6 +154,12 @@
     border-radius: 5%;
     margin-top: 20px;
 }
+
+/*p {
+    display: flex;
+    justify-content: center;
+}*/
+
 
 @media all and (max-width: 767px) {
     .post-1671 {
@@ -231,4 +171,21 @@
         color: #3D9448;
         padding-top: 1px;
     }
+
+    .order_forms {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10%;
+        color: #FFFFFF;
+    }
+
+}
+
+@media all and (max-width: 850px) {
+
+    .order_forms {
+        gap: 3%;
+    }
+
 }
