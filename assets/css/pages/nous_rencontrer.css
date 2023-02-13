@@ -144,9 +144,12 @@
 }
 
 .wpcf7-form-control.wpcf7-textarea {
+    width: 383px;
     height: 271px;
+    border-radius: 5px;
     margin-top: 13px;
     margin-bottom: 4px;
+    border: 1px solid white;
 }
 
 .form_contact_submit {
@@ -199,18 +202,14 @@
 
 @media all and (max-width: 380px) {
     .meet {
-        font-size: 150%;
+        font-size: 140%;
         padding-left: 0;
     }
 }
 
-@media all and (max-width: 315px) {
-    .meet {
-        font-size: 120%;
-    }
+@media all and (max-width: 400px) {
 
-    .form {
-        padding-left: 5%;
-        padding-right: 5%;
+    .wpcf7-form-control.wpcf7-textarea {
+        width: 100%;
     }
 }
