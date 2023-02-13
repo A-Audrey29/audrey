@@ -162,13 +162,13 @@
 .wp-image-1668 {
     position: relative;
     z-index: 1;
-    bottom: 190px;
+    bottom: 284px;
     right: 186px;
     background-image: url(http://localhost:10017/wp-content/uploads/2023/01/feuillage_formulaire.png);
 }
 
 .wp-block-image-feuille {
-    height: 60px;
+    height: 10px;
 }
 
 .form_contact {

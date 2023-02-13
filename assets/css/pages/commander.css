@@ -97,14 +97,7 @@
     color: #FFFFFF;
     font-size: 30px;
     font-weight: 700;
-    padding: 50px 0 29px 0;
-}
-
-/*.form_separator {
-    position: fixed;
-    left: 50%;
-    height: 447px;
-    border: 1px solid white;
+    padding: 5px 0 29px 0;
 }
 
 /* formulaire de contact form7 */
@@ -113,8 +106,18 @@
     display: flex;
     justify-content: center;
     flex-wrap: nowrap;
-    gap: 12%;
     color: #FFFFFF;
+}
+
+.form_column_left {
+    border-right: 1px solid white;
+    padding-right: 45px;
+    margin-top: 55px;
+}
+
+.form_column_right {
+    margin-top: 55px;
+    margin-left: 45px;
 }
 
 .wpcf7-form.init {
@@ -151,15 +154,12 @@
     height: 55px;
     color: #FFFFFF;
     background-color: #E0B9B4;
-    border-radius: 5%;
     margin-top: 20px;
 }
 
-/*p {
-    display: flex;
-    justify-content: center;
-}*/
-
+.wpcf7-form-control.has-spinner.wpcf7-submit {
+    border-radius: 5px;
+}
 
 @media all and (max-width: 767px) {
     .post-1671 {
@@ -176,10 +176,9 @@
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
-        gap: 10%;
+
         color: #FFFFFF;
     }
-
 }
 
 @media all and (max-width: 850px) {
