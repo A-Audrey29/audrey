@@ -126,18 +126,17 @@
     margin-bottom: 93px;
 }
 
-.wpcf7-form-control {
+.wpcf7-form-control.wpcf7-text {
     height: 71px;
     width: 383px;
     border-radius: 7px;
     border: none;
 }
 
-.wpcf7-form-control.wpcf7-text {
-    height: 71px;
-    width: 383px;
-    border-radius: 7px;
-    border: none;
+.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required {
+    margin-top: 13px;
+    margin-bottom: 0;
+
 }
 
 .label {
@@ -148,13 +147,16 @@
     color: #FFFFFF;
 }
 
+.champs {
+    margin-top: 30px;
+}
 
 .wpcf7-submit {
     width: 198px;
     height: 55px;
     color: #FFFFFF;
     background-color: #E0B9B4;
-    margin-top: 20px;
+    margin-top: 44px;
 }
 
 .wpcf7-form-control.has-spinner.wpcf7-submit {
@@ -176,15 +178,40 @@
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
-
         color: #FFFFFF;
     }
 }
 
-@media all and (max-width: 850px) {
+@media all and (max-width: 782px) {
 
-    .order_forms {
-        gap: 3%;
+    .form_column_left {
+        border-right: none;
+        padding-right: 10px;
+        margin-top: 55px;
     }
 
+    .form_column_right {
+        margin-top: 55px;
+        margin-left: 0;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .title_order {
+        font-size: 165%;
+    }
+
+    .wpcf7-form.init {
+        width: 90%;
+    }
+
+    .wpcf7-form-control.wpcf7-text {
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 400px) {
+    .title_order {
+        font-size: 125%;
+    }
 }

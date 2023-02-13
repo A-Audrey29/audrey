@@ -51,7 +51,8 @@
     padding-top: 80px;
     margin-bottom: 8px;
     border-radius: 0 0 70% 70%;
-    border: 1px solid rgba(229, 229, 229);
+    border-top: 2px solid #ECE2DA;
+    border-bottom: 2px solid #FFFFFF;
     color: #ECE2DA;
     background-color: #ECE2DA;
 }
@@ -162,7 +163,7 @@
 .wp-image-1668 {
     position: relative;
     z-index: 1;
-    bottom: 284px;
+    bottom: 308px;
     right: 186px;
     background-image: url(http://localhost:10017/wp-content/uploads/2023/01/feuillage_formulaire.png);
 }
@@ -171,15 +172,11 @@
     height: 10px;
 }
 
-.form_contact {
-    border: 1px solid #ECE2DA;
-    max-width: 418px;
-}
-
 /* image footer */
 
 .wp-image-1645-team {
     width: 100%;
+    height: 109px;
 }
 
 
@@ -187,5 +184,33 @@
     .form {
         padding-left: 10%;
         padding-right: 10%;
+    }
+}
+
+@media all and (max-width: 550px) {
+    .title_meet {
+        width: 65%;
+    }
+
+    .meet {
+        font-size: 190%;
+    }
+}
+
+@media all and (max-width: 380px) {
+    .meet {
+        font-size: 150%;
+        padding-left: 0;
+    }
+}
+
+@media all and (max-width: 315px) {
+    .meet {
+        font-size: 120%;
+    }
+
+    .form {
+        padding-left: 5%;
+        padding-right: 5%;
     }
 }

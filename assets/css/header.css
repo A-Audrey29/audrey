@@ -9,6 +9,8 @@
 
 .nav_bar {
     height: 80px;
+    font-weight: 700;
+    font-size: 13px;
     color: black;
     background-color: var(--blanc);
     padding-top: 30px;
@@ -26,7 +28,6 @@
 
 .nav_bar_menu {
     height: 100%;
-
     display: flex;
     justify-content: space-between;
 }
@@ -39,10 +40,10 @@
 }
 
 .commander {
-    height: 80px;
+    height: 81px;
     color: var(--blanc);
     background-color: var(--corail);
-    padding: 29px 61px 33px 61px;
+    padding: 28px 61px 36px 61px;
 }
 
 @media all and (max-width: 700px) {
