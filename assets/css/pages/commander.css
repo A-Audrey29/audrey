@@ -38,6 +38,10 @@
     padding-right: 0;
 }
 
+.wp-block-image.size-full.order_picture {
+    text-align: center;
+}
+
 .commande {
     padding-top: 14px;
     display: flex;

@@ -21,11 +21,12 @@
 
         <nav class="nav_bar_menu">
             <ul class="nav">
-                <li><a class="menu nav_li" href="http://localhost:10017/nous-rencontrer/">Nous rencontrer</a></li>
+                <!-- <li><a class="menu nav_li" href="http://localhost:10017/nous-rencontrer/">Nous rencontrer</a></li>
                 <?php if (is_user_logged_in()) { ?>
                     <li><a class="menu hook nav_li" href="admin">Admin</a></li>
                 <?php } ?>
-                <li><a class="menu commander nav_li" href="http://localhost:10017/commander/">Commander</a></li>
+                <li><a class="menu commander nav_li" href="http://localhost:10017/commander/">Commander</a></li> -->
             </ul>
         </nav>
+        <?php wp_nav_menu(); ?>
     </header>
