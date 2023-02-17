@@ -1,26 +1,27 @@
 .logo {
-    width: 228px;
     height: 19px;
-    padding-left: 37px;
+    width: 228px;
+    /*   height: 19px;
+     padding-left: 37px;
 
     flex-grow: 1;
-    flex-basis: auto;
+    flex-basis: auto;*/
 }
 
 .nav_bar {
     height: 80px;
     font-weight: 700;
     font-size: 13px;
-    color: black;
     background-color: var(--blanc);
-    padding-top: 30px;
-    padding-bottom: 31px;
+    /*padding-top: 30px;
+    padding-bottom: 31px;*/
     display: flex;
     justify-content: space-between;
+    align-items: center;
     flex-wrap: wrap;
 }
 
-.nav {
+/*.nav {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -32,18 +33,61 @@
     justify-content: space-between;
 }
 
-.menu {
+/*.menu {
     color: black;
 
     padding-left: 25px;
     padding-right: 25px;
+}*/
+
+/* nouveaux CSS */
+
+.nav {
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
 }
 
-.commander {
+/*a {
+    height: 80px;
+    padding: 28px 61px 36px 61px;
+}*/
+
+.menu {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/*.menu-menu-1-container {
+    color: black;
+    height: 80px;
+}*/
+
+.menu-item {
     height: 81px;
     color: var(--blanc);
+    display: flex;
+    align-items: center;
+
+}
+
+.menu-item-1850,
+.menu-item-1849 {
+    width: 236px;
+    height: 80px;
+    text-align: center;
+}
+
+.menu-item-1849 {
     background-color: var(--corail);
-    padding: 28px 61px 36px 61px;
+}
+
+a {
+    height: 100%;
 }
 
 @media all and (max-width: 700px) {
