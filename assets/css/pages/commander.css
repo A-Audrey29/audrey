@@ -1,5 +1,6 @@
 .page-id-1671 {
     background-color: #3D9448;
+    margin: auto;
 }
 
 .post-1671 {
@@ -140,7 +141,6 @@
 .wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required {
     margin-top: 13px;
     margin-bottom: 0;
-
 }
 
 .label {
@@ -149,10 +149,15 @@
     font-size: 20px;
     line-height: 24px;
     color: #FFFFFF;
+    text-align: start;
 }
 
 .champs {
     margin-top: 30px;
+}
+
+.champs>p {
+    text-align: start;
 }
 
 .wpcf7-submit {
@@ -168,11 +173,31 @@
     border-radius: 5px;
 }
 
+@media all and (max-width: 970px) {}
+
+@media all and (max-width: 970px) {
+
+    .entry-content {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .wpcf7-form-control.wpcf7-text {
+        width: 350px;
+    }
+}
+
+@media all and (max-width: 814px) {
+    .title_order {
+        padding-top: 150px;
+    }
+}
+
 @media all and (max-width: 767px) {
-    .post-1671 {
+    /*.post-1671 {
         width: 80%;
         margin: auto;
-    }
+    }*/
 
     .title_form_livraison {
         color: #3D9448;
@@ -184,6 +209,7 @@
         justify-content: center;
         flex-wrap: wrap;
         color: #FFFFFF;
+        width: 70%;
     }
 }
 
@@ -201,22 +227,19 @@
     }
 }
 
-@media all and (max-width: 500px) {
-    .title_order {
-        font-size: 165%;
-    }
-
-    .wpcf7-form.init {
-        width: 90%;
-    }
-
+@media all and (max-width: 768px) {
     .wpcf7-form-control.wpcf7-text {
-        width: 100%;
+        width: 450px;
     }
 }
 
-@media all and (max-width: 400px) {
+@media all and (max-width: 500px) {
     .title_order {
-        font-size: 125%;
+        font-size: 300%;
+        padding-top: 225px;
+    }
+
+    .wpcf7-form-control.wpcf7-text {
+        width: 450px;
     }
 }

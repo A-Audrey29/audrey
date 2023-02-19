@@ -230,8 +230,18 @@
         width: 80%;
         margin: auto;
     }
+
+    .text_plants {
+        width: 60%;
+        margin: auto;
+    }
 }
 
+@media all and (max-width: 814px) {
+    .title_home {
+        padding-top: 150px;
+    }
+}
 
 @media all and (max-width: 700px) {
     .wp-element-caption {

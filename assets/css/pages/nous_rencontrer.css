@@ -1,43 +1,29 @@
-.title_meet {
-    width: 87%;
-    margin-bottom: 27px;
-    display: flex;
-    justify-content: center;
-}
+/* section Nous rencontrer */
 
-.meet {
-    color: #D2776A;
-    font-weight: 800;
-    font-size: 38px;
-    text-align: center;
-    padding-top: 155px;
-    padding-left: 6Opx;
-}
-
-.wp-block-image-flower {
-    width: 145px;
-    height: 150PX;
+.flower_meet {
     min-width: 120px;
     padding-top: 55px;
-    padding-left: 9%;
+    padding-left: 27%;
 }
 
 .wp-image-1657 {
     width: 145px;
-    height: 150px;
+    height: 150PX;
 }
 
-.text_team {
+.title_meet {
+    color: #D2776A;
+    font-weight: 800;
+    font-size: 38px;
     text-align: center;
-    line-height: 24px;
-    padding-left: 30%;
-    padding-right: 30%;
-}
-
-.background_team {
-    background-color: #FFFF;
     padding-bottom: 10px;
 }
+
+.text_meet {
+    max-width: 669px;
+}
+
+/* section pour l'arrondie */
 
 .round_team {
     padding-top: 80px;
@@ -49,67 +35,43 @@
     background-color: #ECE2DA;
 }
 
-/* section "L'équipe */
-
-.team {
-    background-color: white;
-    position: relative;
+.background_team {
+    background-color: #FFFF;
+    padding-bottom: 10px;
 }
 
-.photo_team {
-    padding-top: 50px;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-bottom: 81px;
+/* section l'équipe */
+
+.title_staff {
     text-align: center;
+}
+
+.wp-block-uagb-container.uagb-block-31fbfd00.alignfull.uagb-is-root-container {
+    padding-bottom: 81px;
+}
+
+.wp-block-uagb-container.uagb-block-ab279ebd {
     position: relative;
     z-index: 2;
-
-    display: flex;
-    justify-content: space-evenly;
 }
 
-.has-text-align-center_team,
-.has-text-align-center-contact {
-    font-size: 30px;
-    font-weight: 700;
-    text-align: center;
-    padding-top: 70px;
-}
-
-.text-has-text-align-center {
-    padding-left: 27%;
-    padding-right: 22%;
-}
-
-.is-layout-flex wp-block-gallery-1 photo_team {
-    height: 50px;
-    text-align: center;
-}
-
-.wp-image-1659 {
-    clip-path: ellipse(50% 50%);
-}
-
-.wp-image-1658 {
-    clip-path: ellipse(50% 50%);
-}
-
-.wp-image-2203 {
-    clip-path: ellipse(50% 50%);
-}
-
-.wp-image-1860 {
+.wp-block-image.size-full.flower_staff {
     position: absolute;
-    right: 30px;
-    bottom: -1px;
+    left: 280px;
+    bottom: -12px;
     height: auto;
     z-index: 1;
 }
 
-/* section "Nous contacter" */
+/* section Nous contacter */
 
-.has-text-align-center-contact {
+.block_form {
+    padding: O !important;
+}
+
+.title_form_meet {
+    text-align: center;
+    padding-top: 66px;
     padding-bottom: 45px;
 }
 
@@ -119,7 +81,6 @@
 }
 
 .wpcf7-form.init {
-    /* vaut aussi pour le formuaire de commande */
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -148,32 +109,35 @@
     text-align: center;
 }
 
-/* positionnement du feuillage */
+.form_contact>P {
+    width: 383px;
+    text-align: start;
+}
+
+/* positionnement du feuillage du formulaire */
 
 .wpcf7 {
     position: relative;
-    z-index: 10;
+    z-index: 2;
 }
 
 .wp-image-1668 {
     position: relative;
     z-index: 1;
-    bottom: 308px;
-    right: 186px;
+    bottom: 327px;
+    left: 412px;
     background-image: url(http://localhost:10017/wp-content/uploads/2023/01/feuillage_formulaire.png);
 }
 
-.wp-block-image-feuille {
-    height: 10px;
+.wp-block-image.size-full.flower_form {
+    height: 0px;
 }
 
-/* image footer */
+/* bannière de cantettes */
 
-.wp-image-1645-team {
-    width: 100%;
-    height: 109px;
+.wp-image-1645 {
+    background-color: #ECE2DA;
 }
-
 
 @media all and (max-width: 850px) {
     .form {
@@ -189,6 +153,17 @@
 
     .meet {
         font-size: 190%;
+    }
+}
+
+@media all and (max-width: 490px) {
+    .title_meet {
+        padding-top: 50px;
+    }
+
+    .text-has-text-align-center {
+        padding-left: 15%;
+        padding-right: 15%;
     }
 }
 

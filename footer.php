@@ -1,5 +1,5 @@
 <footer>
     <p>
-        <a href="http://localhost:10017/"> Mentions légales </a>
+        <a class="mention_link" href="http://localhost:10017/"> Mentions légales </a>
     </p>
 </footer>
