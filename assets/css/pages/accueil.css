@@ -27,6 +27,8 @@
     background-color: #ECE2DA;
 }
 
+/* bloc "L'énergie des plantes" */
+
 .is-layout-constrained.wp-block-group {
     padding-top: 50px;
     padding-bottom: 60px;
@@ -45,6 +47,8 @@
     width: 30%;
     margin: auto;
 }
+
+/* bloc "Les goûts" */
 
 .title_tastes {
     color: #D2776A;
@@ -203,15 +207,48 @@
     background-color: white;
 }
 
-
-@media all and (max-width: 600px) {
+@media all and (max-width: 1250px) {
     .wp-element-caption {
-        font-size: 13px !important;
+        font-size: 250% !important;
+    }
+}
+
+@media all and (max-width: 1050px) {
+    .wp-element-caption {
+        font-size: 225% !important;
+    }
+}
+
+@media all and (max-width: 1050px) {
+    .wp-element-caption {
+        font-size: 200% !important;
+    }
+}
+
+@media all and (max-width: 950px) {
+    .bloc_tastes_pictures {
+        width: 80%;
+        margin: auto;
+    }
+}
+
+
+@media all and (max-width: 700px) {
+    .wp-element-caption {
+        font-size: 175% !important;
     }
 
     .bloc_tastes_pictures {
         display: flex;
         flex-direction: column;
+        width: 80%;
+        margin: auto;
+    }
+}
+
+@media all and (max-width: 490px) {
+    .title_home {
+        padding-top: 215px;
     }
 }
 

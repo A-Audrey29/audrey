@@ -1,14 +1,8 @@
-header {
-    background-color: white;
-}
-
 .nav_bar {
     height: 80px;
     font-weight: 700;
     font-size: 13px;
     background-color: var(--blanc);
-    /*padding-top: 30px;
-    padding-bottom: 31px;*/
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -17,15 +11,10 @@ header {
 
 .logo {
     height: 19px;
-    width: 265px;
-    /*height: 19px;*/
     padding-left: 37px;
-
-    /*flex-grow: 1;
-    flex-basis: auto;*/
 }
 
-/*.nav {
+.nav {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -42,7 +31,7 @@ header {
 
     padding-left: 25px;
     padding-right: 25px;
-}*/
+}
 
 /* nouveaux CSS */
 
@@ -55,22 +44,24 @@ header {
     align-items: center;
 }
 
-/*a {
-    height: 80px;
-    padding: 28px 61px 36px 61px;
-}*/
-
 .menu {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
 }
 
-/*.menu-menu-1-container {
+.menu.commander.nav_li {
+    background-color: #DC9F96;
+    color: white;
+}
+
+/* css avec menu WP
+
+.menu-menu-1-container {
     color: black;
     height: 80px;
-}*/
-
+}
+/*  
 .menu-menu-1-container {
     background-color: white;
     display: flex;
@@ -104,9 +95,10 @@ header {
     width: 236px;
     justify-content: center;
 }
-
+*/
 a {
     height: 100%;
+    padding: 28px 61px 36px 61px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -117,7 +109,28 @@ a {
     font-weight: 400;
 }
 
-@media all and (max-width: 700px) {
+@media all and (max-width: 982px) {
+    a {
+        padding: 28px 40px 36px 40px;
+    }
+}
+
+@media all and (max-width: 814px) {
+    .nav_bar {
+        justify-content: center;
+        margin-bottom: 5%;
+        margin-bottom: auto;
+    }
+}
+
+@media all and (max-width: 490px) {
+    .nav {
+        justify-content: center;
+    }
+}
+
+
+/*@media all and (max-width: 700px) {
 
     .nav {
         background-color: white;
@@ -178,4 +191,4 @@ a {
     .nav {
         padding-top: 32px;
     }
-}
+}*/
