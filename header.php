@@ -28,5 +28,20 @@
                 <!-- <li><a class="menu commander nav_li" href="http://localhost:10017/commander/">Commander</a></li> -->
             </ul>
         </nav>
-        <?php wp_nav_menu(); ?>
+
+        <?php function add_custom_menu_item($items, $args)
+        {
+            // Check if user is logged in
+            $is_logged_in = is_user_logged_in();
+
+            // Check the boolean value and add a new menu item if true
+            if ($is_logged_in) {
+                $new_item = '<li><a href="' . home_url('/custom-page/') . '">Custom Page</a></li>';
+                $items .= $new_item;
+            }
+
+            return $items;
+        }
+        add_filter('wp_nav_menu_items', 'add_custom_menu_item');
+        ?>
     </header>
