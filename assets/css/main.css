@@ -22,8 +22,11 @@ body {
     max-width: 1400px;
 }
 
-.h1 {
-    color: var(--vert);
+h1 {
+    text-align: center;
+    font-size: 38px;
+    font-weight: 800;
+    line-height: 45.6px;
 }
 
 h2 {

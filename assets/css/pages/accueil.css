@@ -1,15 +1,13 @@
-.title_home {
+/*.title_home {
     color: #3B8E46;
-    text-align: center;
-    font-size: 38px;
-    font-weight: 800;
-    padding-top: 90px;
+    padding-top: 105px;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-left: 20%;
 }
 
 .home_picture {
-    padding-top: 100px;
-    margin-left: 13%;
-    margin-right: 12%;
+    margin-left: 21%;
 }
 
 .background {
@@ -27,7 +25,7 @@
     background-color: #ECE2DA;
 }
 
-/* bloc "L'énergie des plantes" */
+/* bloc "L'énergie des plantes" 
 
 .is-layout-constrained.wp-block-group {
     padding-top: 50px;
@@ -48,7 +46,7 @@
     margin: auto;
 }
 
-/* bloc "Les goûts" */
+/* bloc "Les goûts" 
 
 .title_tastes {
     color: #D2776A;
@@ -117,7 +115,7 @@
 
 .wp-block-cover.is-light {
     max-height: 262px;
-}*/
+}
 
 .wp-block-button__link {
     background-color: #E0B9B4;
@@ -195,7 +193,7 @@
     padding-left: 8%;
     padding-right: 8%;
     padding-bottom: 50px
-}*/
+}
 .wp-block-uagb-container.uagb-block-b6f35fdc.alignfull.uagb-is-root-container {
     background-color: white;
     padding-bottom: 100px;
@@ -206,7 +204,7 @@
     width: 100%;
     background-color: white;
 }
-
+*/
 @media all and (max-width: 1250px) {
     .wp-element-caption {
         font-size: 250% !important;
@@ -266,4 +264,147 @@
     .title_home {
         font-size: 150%;
     }
+}
+
+/* nouvelles pages accueil */
+
+/* section Boisson énergisante 100% naturelle */
+
+
+.title_home {
+    color: #3B8E46;
+    padding-top: 105px;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-left: 20%;
+}
+
+.home_picture {
+    margin-left: 25%;
+}
+
+/* section pour l'arrondie */
+
+.background {
+    background-color: #FFFF;
+    padding-bottom: 10px;
+}
+
+.round {
+    padding-bottom: 60px;
+    margin-bottom: 8px;
+    border-radius: 0 0 70% 70%;
+    box-shadow: 0 10px 0 rgb(225 217 209);
+    border: 1px solid rgba(229, 229, 229);
+    color: #ECE2DA;
+    background-color: #ECE2DA;
+}
+
+/* section "L'énergie des plantes" */
+
+.block_plants {
+    background-color: white;
+}
+
+.title_plants {
+    padding-bottom: 47px;
+    padding-top: 60px;
+    color: #3B8E46;
+    text-align: center;
+}
+
+.text_plants {
+    width: 30% !important;
+    padding-bottom: 82px;
+}
+
+/* section "Les goûts" */
+
+.title_tastes {
+    color: #D2776A;
+    padding-top: 56px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-weight: 800;
+}
+
+.text_tastes {
+    padding-bottom: 48px;
+}
+
+.spectra-image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.spectra-image-gallery__media-wrapper--isotope {
+    padding: 2%;
+    object-fit: scale-down;
+}
+
+.button_order {
+    width: 198px;
+    height: 102px;
+    padding-top: 47px;
+}
+
+/* section pour l'arrondie */
+
+.background-little {
+    background-color: #FFFF;
+    padding-bottom: 100px
+}
+
+.round-little {
+    padding-top: 35px;
+    padding-bottom: 20px;
+    border-radius: 0 0 70% 70%;
+    border: 1px solid rgba(229, 229, 229);
+    color: #E5E5E5;
+    background-color: #ECE2DA;
+}
+
+/* section "Ce qu'ils en pensent" */
+
+.block_comments {
+    background-color: white;
+}
+
+.wp-block-uagb-container.block_think.uagb-block-971a5ec2 {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.title_think {
+    color: #3B8E46;
+    font-weight: 800;
+    text-align: center;
+    padding-bottom: 65px;
+}
+
+.containers_comments {
+    width: 29% !important;
+}
+
+.container_text {
+    margin-left: -102px !important;
+}
+
+.names_comments {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+    color: #3B8E46;
+}
+
+.text_comments {
+    text-align: start;
+    line-height: 19.2px;
+    font-size: 16px;
+}
+
+.wp-image-1645 {
+    background-color: white !important;
+    padding-top: 115px;
 }
