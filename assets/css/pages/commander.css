@@ -181,9 +181,15 @@
         margin-left: 20px;
         margin-right: 20px;
     }
+}
 
-    .wpcf7-form-control.wpcf7-text {
-        width: 350px;
+@media all and (max-width: 875px) {
+    .form_column_left {
+        padding-right: 20px;
+    }
+
+    .form_column_right {
+        margin-left: 20px;
     }
 }
 

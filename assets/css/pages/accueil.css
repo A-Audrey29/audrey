@@ -204,70 +204,6 @@
     width: 100%;
     background-color: white;
 }
-*/
-@media all and (max-width: 1250px) {
-    .wp-element-caption {
-        font-size: 250% !important;
-    }
-}
-
-@media all and (max-width: 1050px) {
-    .wp-element-caption {
-        font-size: 225% !important;
-    }
-}
-
-@media all and (max-width: 1050px) {
-    .wp-element-caption {
-        font-size: 200% !important;
-    }
-}
-
-@media all and (max-width: 950px) {
-    .bloc_tastes_pictures {
-        width: 80%;
-        margin: auto;
-    }
-
-    .text_plants {
-        width: 60%;
-        margin: auto;
-    }
-}
-
-@media all and (max-width: 814px) {
-    .title_home {
-        padding-top: 150px;
-    }
-}
-
-@media all and (max-width: 700px) {
-    .wp-element-caption {
-        font-size: 175% !important;
-    }
-
-    .bloc_tastes_pictures {
-        display: flex;
-        flex-direction: column;
-        width: 80%;
-        margin: auto;
-    }
-}
-
-@media all and (max-width: 490px) {
-    .title_home {
-        padding-top: 215px;
-    }
-}
-
-@media all and (max-width: 470px) {
-    .title_home {
-        font-size: 150%;
-    }
-}
-
-/* nouvelles pages accueil */
-
 /* section Boisson énergisante 100% naturelle */
 
 
@@ -276,17 +212,21 @@
     padding-top: 105px;
     padding-left: 20%;
     padding-right: 20%;
-    padding-left: 20%;
 }
 
 .home_picture {
-    margin-left: 25%;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.wp-image-1931 {
+    margin-right: 20px;
 }
 
 /* section pour l'arrondie */
 
 .background {
-    background-color: #FFFF;
+    background-color: #FFFFFF;
     padding-bottom: 10px;
 }
 
@@ -319,6 +259,8 @@
 }
 
 /* section "Les goûts" */
+
+
 
 .title_tastes {
     color: #D2776A;
@@ -407,4 +349,98 @@
 .wp-image-1645 {
     background-color: white !important;
     padding-top: 115px;
+}
+
+.wp-block-uagb-container.uagb-is-root-container {
+    margin-left: O !important;
+    margin-right: 0 !important;
+}
+
+
+@media all and (max-width: 1250px) {
+    .spectra-image-gallery__media-thumbnail-caption.spectra-image-gallery__media-thumbnail-caption--bar-inside {
+        font-size: 250% !important;
+    }
+}
+
+@media all and (max-width: 1050px) {
+    .spectra-image-gallery__media-thumbnail-caption.spectra-image-gallery__media-thumbnail-caption--bar-inside {
+        font-size: 225% !important;
+    }
+}
+
+
+@media all and (max-width: 976px) {
+    .spectra-image-gallery__layout--masonry-col-tab-3.spectra-image-gallery__media-wrapper--isotope {
+        width: 49%;
+    }
+}
+
+@media all and (max-width: 950px) {
+    .bloc_tastes_pictures {
+        width: 80%;
+        margin: auto;
+    }
+
+    .text_plants {
+        width: 60% !important;
+        margin: auto;
+    }
+}
+
+@media all and (max-width: 900px) {
+    .block_think {
+        display: contents;
+    }
+}
+
+@media all and (max-width: 814px) {
+    .title_home {
+        padding-top: 150px;
+    }
+}
+
+@media all and (max-width: 700px) {
+    .spectra-image-gallery__media-thumbnail-caption.spectra-image-gallery__media-thumbnail-caption--bar-inside {
+        font-size: 175% !important;
+    }
+
+    .bloc_tastes_pictures {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin: auto;
+    }
+
+    .title_home {
+        padding-top: 150px;
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+}
+
+
+@media all and (max-width: 490px) {
+    .title_home {
+        padding-top: 215px;
+    }
+
+    .spectra-image-gallery.spectra-image-gallery__layout--masonry.spectra-image-gallery__layout--masonry-col-2.spectra-image-gallery__layout--masonry-col-tab-3.spectra-image-gallery__layout--masonry-col-mob-2 {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+}
+
+
+@media all and (max-width: 490px) {
+    .title_home {
+        padding-top: 215px;
+    }
+}
+
+@media all and (max-width: 470px) {
+    .title_home {
+        font-size: 150%;
+    }
 }
