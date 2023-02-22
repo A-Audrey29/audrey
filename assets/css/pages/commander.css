@@ -4,7 +4,7 @@
 }
 
 .post-1671 {
-    width: 860px;
+    max-width: 860px;
     margin: auto;
 }
 
@@ -173,7 +173,6 @@
     border-radius: 5px;
 }
 
-@media all and (max-width: 970px) {}
 
 @media all and (max-width: 970px) {
 
@@ -200,15 +199,6 @@
 }
 
 @media all and (max-width: 767px) {
-    /*.post-1671 {
-        width: 80%;
-        margin: auto;
-    }*/
-
-    .title_form_livraison {
-        color: #3D9448;
-        padding-top: 1px;
-    }
 
     .order_forms {
         display: flex;
@@ -233,11 +223,6 @@
     }
 }
 
-@media all and (max-width: 768px) {
-    .wpcf7-form-control.wpcf7-text {
-        width: 450px;
-    }
-}
 
 @media all and (max-width: 500px) {
     .title_order {
@@ -245,7 +230,4 @@
         padding-top: 225px;
     }
 
-    .wpcf7-form-control.wpcf7-text {
-        width: 450px;
-    }
 }

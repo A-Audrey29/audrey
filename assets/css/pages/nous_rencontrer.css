@@ -3,7 +3,7 @@
 .flower_meet {
     min-width: 120px;
     padding-top: 55px;
-    padding-left: 27%;
+    padding-left: 12%;
 }
 
 .wp-image-1657 {
@@ -135,7 +135,7 @@
 
 /* bannière de cantettes */
 
-.wp-image-1645 {
+.bobines_picture_meet {
     background-color: #ECE2DA;
 }
 
@@ -153,6 +153,11 @@
 
     .meet {
         font-size: 190%;
+    }
+
+    .wp-block-image.size-full.flower_staff,
+    .wp-image-1668 {
+        display: none;
     }
 }
 

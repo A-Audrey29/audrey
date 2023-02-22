@@ -206,6 +206,9 @@
 }
 /* section Boisson énergisante 100% naturelle */
 
+.block_home {
+    background-color: #ECE2DA;
+}
 
 .title_home {
     color: #3B8E46;
@@ -215,12 +218,7 @@
 }
 
 .home_picture {
-    padding-left: 50px;
-    padding-right: 50px;
-}
-
-.wp-image-1931 {
-    margin-right: 20px;
+    text-align: center;
 }
 
 /* section pour l'arrondie */
@@ -260,7 +258,10 @@
 
 /* section "Les goûts" */
 
-
+.container_tastes {
+    margin: auto;
+    background-color: #ECE2DA;
+}
 
 .title_tastes {
     color: #D2776A;
@@ -278,6 +279,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    padding-left: 20%;
+    padding-right: 20%;
 }
 
 .spectra-image-gallery__media-wrapper--isotope {
@@ -314,19 +317,25 @@
 }
 
 .wp-block-uagb-container.block_think.uagb-block-971a5ec2 {
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .title_think {
-    color: #3B8E46;
+    color: #3B8E46 !important;
     font-weight: 800;
     text-align: center;
-    padding-bottom: 65px;
 }
 
 .containers_comments {
-    width: 29% !important;
+    flex-basis: 400px;
+    margin: 0 !important;
+}
+
+.uagb-container-inner-blocks-wrap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
 }
 
 .container_text {
@@ -346,15 +355,42 @@
     font-size: 16px;
 }
 
-.wp-image-1645 {
-    background-color: white !important;
-    padding-top: 115px;
+.bobines_picture_home {
+    margin-top: 115px;
 }
+
+/*.wp-image-1645 {
+    background-image: url("http://localhost:10017/wp-content/uploads/2023/01/footer.png");
+    background-repeat: repeat-x;
+}*/
 
 .wp-block-uagb-container.uagb-is-root-container {
     margin-left: O !important;
     margin-right: 0 !important;
 }
+
+
+/* le contre WP */
+
+.wp-block-uagb-container {
+    position: initial;
+    /* sur les section nous rencontrer et boisson energisante, permet de ne pas masquer le header en responsive */
+}
+
+.wp-block-uagb-container.uagb-block-315acf65 {
+    flex-direction: row !important;
+}
+
+.wp-block-uagb-container.uagb-is-root-container.alignfull.uagb-block-131793c4>.uagb-container-inner-blocks-wrap {
+    flex-direction: row !important;
+}
+
+.wp-block-uagb-container.uagb-is-root-container.alignfull.uagb-block-1acb4ccf>.uagb-container-inner-blocks-wrap {
+    flex-direction: row !important;
+}
+
+
+
 
 
 @media all and (max-width: 1250px) {
@@ -397,6 +433,16 @@
 @media all and (max-width: 814px) {
     .title_home {
         padding-top: 150px;
+    }
+}
+
+@media all and (max-width: 768px) {
+
+    .containers_comments,
+    .uagb-container-inner-blocks-wrap {
+        display: flex !important;
+        flex-wrap: nowrap !important;
+
     }
 }
 
