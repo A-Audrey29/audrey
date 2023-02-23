@@ -1,6 +1,8 @@
 .page-id-1671 {
     background-color: #3D9448;
     margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .post-1671 {
@@ -13,7 +15,7 @@
     font-weight: 800;
     font-size: 38px;
     text-align: center;
-    padding-top: 50px;
+    margin-top: 50px;
     padding-bottom: 50px;
 }
 
@@ -42,6 +44,8 @@
 .wp-block-image.size-full.order_picture {
     text-align: center;
 }
+
+/* boutons pour saisir la quantité */
 
 .commande {
     padding-top: 14px;
@@ -105,7 +109,7 @@
     padding: 5px 0 29px 0;
 }
 
-/* formulaire de contact form7 */
+/* formulaire de commande */
 
 .order_forms {
     display: flex;
@@ -115,25 +119,26 @@
 }
 
 .form_column_left {
+    width: 50%;
     border-right: 1px solid white;
     padding-right: 45px;
     margin-top: 55px;
 }
 
 .form_column_right {
+    width: 50%;
     margin-top: 55px;
-    margin-left: 45px;
+    padding-left: 45px;
 }
 
 .wpcf7-form.init {
-    width: 60%;
     margin: auto;
     margin-bottom: 93px;
 }
 
 .wpcf7-form-control.wpcf7-text {
+    width: 100%;
     height: 71px;
-    width: 383px;
     border-radius: 7px;
     border: none;
 }
@@ -174,60 +179,36 @@
 }
 
 
-@media all and (max-width: 970px) {
-
-    .entry-content {
-        margin-left: 20px;
-        margin-right: 20px;
+@media all and (max-width: 900px) {
+    .post-1671 {
+        padding-top: 130px;
     }
 }
 
-@media all and (max-width: 875px) {
-    .form_column_left {
-        padding-right: 20px;
-    }
-
-    .form_column_right {
-        margin-left: 20px;
-    }
-}
-
-@media all and (max-width: 814px) {
-    .title_order {
-        padding-top: 150px;
-    }
-}
-
-@media all and (max-width: 767px) {
+@media all and (max-width: 768px) {
 
     .order_forms {
         display: flex;
         justify-content: center;
+        flex-direction: column;
         flex-wrap: wrap;
         color: #FFFFFF;
-        width: 70%;
     }
-}
-
-@media all and (max-width: 782px) {
 
     .form_column_left {
+        width: 100%;
+        padding-right: 0px;
         border-right: none;
-        padding-right: 10px;
-        margin-top: 55px;
     }
 
     .form_column_right {
-        margin-top: 55px;
-        margin-left: 0;
+        width: 100%;
+        padding-left: 0px;
     }
 }
 
-
-@media all and (max-width: 500px) {
+@media all and (max-width: 468px) {
     .title_order {
-        font-size: 300%;
-        padding-top: 225px;
+        font-size: 25.5px;
     }
-
 }

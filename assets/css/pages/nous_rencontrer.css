@@ -2,13 +2,15 @@
 
 .flower_meet {
     min-width: 120px;
-    padding-top: 55px;
+    padding-top: 90px;
     padding-left: 12%;
 }
 
 .wp-image-1657 {
     width: 145px;
     height: 150PX;
+    position: absolute;
+    top: 0px;
 }
 
 .title_meet {
@@ -55,9 +57,9 @@
     z-index: 2;
 }
 
-.wp-block-image.size-full.flower_staff {
+.flower_staff {
     position: absolute;
-    left: 280px;
+    left: 1150px;
     bottom: -12px;
     height: auto;
     z-index: 1;
@@ -73,6 +75,10 @@
     text-align: center;
     padding-top: 66px;
     padding-bottom: 45px;
+}
+
+.block_form_contact {
+    max-width: 383px;
 }
 
 .wpcf7-form-control.wpcf7-text {
@@ -97,7 +103,7 @@
 }
 
 .wpcf7-form-control.wpcf7-textarea {
-    width: 383px;
+    width: 100%;
     height: 271px;
     border-radius: 5px;
     margin-top: 13px;
@@ -110,7 +116,6 @@
 }
 
 .form_contact>P {
-    width: 383px;
     text-align: start;
 }
 
@@ -137,6 +142,10 @@
 
 .bobines_picture_meet {
     background-color: #ECE2DA;
+}
+
+.wp-block-uagb-container.uagb-block-ab5a6445 {
+    padding-bottom: 0 !important;
 }
 
 @media all and (max-width: 850px) {
