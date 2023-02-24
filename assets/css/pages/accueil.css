@@ -1,209 +1,3 @@
-/*.title_home {
-    color: #3B8E46;
-    padding-top: 105px;
-    padding-left: 20%;
-    padding-right: 20%;
-    padding-left: 20%;
-}
-
-.home_picture {
-    margin-left: 21%;
-}
-
-.background {
-    background-color: #FFFF;
-    padding-bottom: 10px;
-}
-
-.round {
-    padding-bottom: 60px;
-    margin-bottom: 8px;
-    border-radius: 0 0 70% 70%;
-    box-shadow: 0 10px 0 rgb(225 217 209);
-    border: 1px solid rgba(229, 229, 229);
-    color: #ECE2DA;
-    background-color: #ECE2DA;
-}
-
-/* bloc "L'énergie des plantes" 
-
-.is-layout-constrained.wp-block-group {
-    padding-top: 50px;
-    padding-bottom: 60px;
-    background-color: white;
-}
-
-.title_plants {
-    padding-bottom: 30px;
-    color: #3B8E46;
-    text-align: center;
-    font-size: 30px;
-    font-weight: 700;
-}
-
-.text_plants {
-    width: 30%;
-    margin: auto;
-}
-
-/* bloc "Les goûts" 
-
-.title_tastes {
-    color: #D2776A;
-    text-align: center;
-    font-size: 30px;
-    font-weight: 800;
-    padding-top: 50px;
-    padding-bottom: 20px;
-}
-
-.bloc_tastes {
-    background-color: #ECE2DA;
-}
-
-.is-layout-constrained.wp-block-group.bloc_tastes_pictures {
-    background-color: #ECE2DA;
-}
-
-.wp-block-image.size-full.home_pictures_tastes {
-    display: flex;
-}
-
-.bloc_tastes_pictures {
-    width: 65%;
-    margin: auto;
-    padding-top: 50px;
-    padding-bottom: 56px;
-    padding-left: 1%;
-    padding-right: 1%;
-}
-
-.wp-block-image {
-    box-sizing: content-box;
-}
-
-.home_pictures_tastes {
-    width: 394px;
-    object-fit: scale-down;
-    padding: 17px 13px 17px 13px;
-}
-
-.wp-element-caption {
-    color: #fff;
-    font-size: 48px !important;
-    background: none !important;
-    font-family: Syne;
-    font-weight: 800;
-    line-height: 57.6px;
-    max-height: 60%;
-    overflow: hidden !important;
-    padding: 0 8px 11px !important;
-    position: absolute;
-    text-align: center;
-    width: 100%;
-    box-sizing: border-box;
-    bottom: inherit !important;
-    text-align: center;
-}
-
-/*.meet_container {
-    max-width: 816px;
-    padding-left: 20%;
-    column-count: 2;
-    flex-basis: 50%;
-}
-
-.wp-block-cover.is-light {
-    max-height: 262px;
-}
-
-.wp-block-button__link {
-    background-color: #E0B9B4;
-    border-radius: 0;
-    margin-bottom: 1px;
-}
-
-.background_little {
-    background-color: #FFFF;
-    padding-bottom: 100px
-}
-
-.round_little {
-    padding-top: 35px;
-    padding-bottom: 20px;
-    border-radius: 0 0 70% 70%;
-    border: 1px solid rgba(229, 229, 229);
-    color: #E5E5E5;
-    background-color: #ECE2DA;
-}
-
-.think {
-    height: 638px;
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    height: 530px;
-}
-
-.has-text-align-center.think {
-    color: #3B8E46;
-    font-weight: 800;
-    font-size: 30px;
-    height: 36px;
-    padding-bottom: 100px;
-}
-
-.wp-block-uagb-container.uagb-block-01686bbd.alignfull.uagb-is-root-container {
-    background-color: white;
-    padding-bottom: 132px;
-    padding-right: 5%;
-    padding-left: 5%;
-}
-
-.wp-block-uagb-container.uagb-block-3a36dea6,
-.wp-block-uagb-container.uagb-block-99077486,
-.wp-block-uagb-container.uagb-block-659243f8 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-}
-
-
-.wp-block-image.size-full.pictures_think {
-    display: flex;
-    justify-content: flex-end;
-}
-
-.first_name_think {
-    color: #3B8E46;
-    font-weight: 700;
-    font-size: 30px;
-    font-family: syne;
-}
-
-.comments {
-    font-size: 16px;
-    line-height: 19.2px;
-    text-align: start;
-}
-
-/*bloc_comments {
-    padding-left: 8%;
-    padding-right: 8%;
-    padding-bottom: 50px
-}
-.wp-block-uagb-container.uagb-block-b6f35fdc.alignfull.uagb-is-root-container {
-    background-color: white;
-    padding-bottom: 100px;
-}
-
-.wp-image-1645 {
-    height: initial;
-    width: 100%;
-    background-color: white;
-}
 /* section Boisson énergisante 100% naturelle */
 
 .block_home {
@@ -223,14 +17,10 @@
 
 /* section pour l'arrondie */
 
-.background {
-    background-color: #FFFFFF;
-    padding-bottom: 10px;
-}
-
 .round {
     padding-bottom: 60px;
     margin-bottom: 8px;
+    margin-top: -1px;
     border-radius: 0 0 70% 70%;
     box-shadow: 0 10px 0 rgb(225 217 209);
     border: 1px solid rgba(229, 229, 229);
@@ -296,14 +86,10 @@
 
 /* section pour l'arrondie */
 
-.background-little {
-    background-color: #FFFF;
-    padding-bottom: 100px
-}
-
 .round-little {
     padding-top: 35px;
     padding-bottom: 20px;
+    margin-top: -1px;
     border-radius: 0 0 70% 70%;
     border: 1px solid rgba(229, 229, 229);
     color: #E5E5E5;
@@ -311,10 +97,6 @@
 }
 
 /* section "Ce qu'ils en pensent" */
-
-.block_comments {
-    background-color: white;
-}
 
 .wp-block-uagb-container.block_think.uagb-block-971a5ec2 {
     padding-left: 30px;
@@ -325,6 +107,7 @@
     color: #3B8E46 !important;
     font-weight: 800;
     text-align: center;
+    padding-top: 100px !important;
 }
 
 .containers_comments {
@@ -359,40 +142,26 @@
     margin-top: 115px;
 }
 
-/*.wp-image-1645 {
-    background-image: url("http://localhost:10017/wp-content/uploads/2023/01/footer.png");
-    background-repeat: repeat-x;
-}*/
-
 .wp-block-uagb-container.uagb-is-root-container {
     margin-left: O !important;
     margin-right: 0 !important;
 }
 
-
 /* le contre WP */
 
 .wp-block-uagb-container {
     position: initial;
-    /* sur les section nous rencontrer et boisson energisante, permet de ne pas masquer le header en responsive */
+    /* sur les pages nous rencontrer et boisson energisante, permet de ne pas masquer le header en responsive */
 }
 
 .wp-block-uagb-container.uagb-block-315acf65 {
     flex-direction: row !important;
 }
 
-/*
-.wp-block-uagb-container.uagb-is-root-container.alignfull.uagb-block-a086c98d.uagb-container-inner-blocks-wrap,
-.wp-block-uagb-container.uagb-is-root-container.alignfull.uagb-block-1acb4ccf.uagb-container-inner-blocks-wrap,
-.wp-block-uagb-container.uagb-is-root-container.alignfull.uagb-block-131793c4.uagb-container-inner-blocks-wrap {
-    flex-direction: row !important;
-}
-*/
-
 .containers_comments {
     flex-direction: row !important;
-
 }
+
 
 @media all and (max-width: 1200px) {
 
@@ -447,6 +216,5 @@
 
     .wp-block-uagb-container.uagb-block-380ef1ad {
         padding-left: 85px !important;
-
     }
 }

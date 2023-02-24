@@ -34,16 +34,12 @@
 .round_team {
     padding-top: 80px;
     margin-bottom: 8px;
+    margin-top: -1px;
     border-radius: 0 0 70% 70%;
     border-top: 2px solid #ECE2DA;
     border-bottom: 2px solid #FFFFFF;
     color: #ECE2DA;
     background-color: #ECE2DA;
-}
-
-.background_team {
-    background-color: #FFFF;
-    padding-bottom: 10px;
 }
 
 /* section l'équipe */
@@ -161,50 +157,6 @@
     padding-bottom: 0 !important;
 }
 
-/*@media all and (max-width: 850px) {
-    .wpcf7-form.init {
-        margin-left: 30px;
-        margin-right: 30px;
-    }
-
-    .flower_staff {
-        display: none;
-    }
-}
-
-@media all and (max-width: 550px) {
-    .title_meet {
-        width: 65%;
-    }
-
-    .meet {
-        font-size: 190%;
-    }
-
-    .wp-block-image.size-full.flower_staff,
-    .wp-image-1668 {
-        display: none;
-    }
-}
-
-@media all and (max-width: 490px) {
-    .title_meet {
-        padding-top: 50px;
-    }
-
-    .text-has-text-align-center {
-        padding-left: 15%;
-        padding-right: 15%;
-    }
-}
-
-@media all and (max-width: 380px) {
-    .meet {
-        font-size: 140%;
-        padding-left: 0;
-    }
-}
-*/
 
 @media all and (max-width: 1200px) {
 
@@ -217,21 +169,11 @@
 
     .title_meet {
         font-size: 32px;
-    }
-
-    .flower_meet {
-        display: none;
-    }
-
-    .title_meet {
         padding-top: 150px;
     }
 
-    .flower_staff {
-        display: none;
-    }
-
-    .wp-image-1668 {
+    .flower_meet,
+    .flower_form {
         display: none;
     }
 }
@@ -243,23 +185,8 @@
         padding-top: 180px !important;
     }
 
-    .flower_meet {
-        display: none;
-    }
-
-    .flower_staff {
-        display: none;
-    }
-
+    .flower_meet,
     .flower_form {
-        display: none;
-    }
-
-    .wpcf7-form-control.wpcf7-textarea {
-        width: 100%;
-    }
-
-    .wp-image-1668 {
         display: none;
     }
 }
