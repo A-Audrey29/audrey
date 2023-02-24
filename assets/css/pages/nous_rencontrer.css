@@ -1,5 +1,9 @@
 /* section Nous rencontrer */
 
+.block_meet {
+    padding-top: 45px !important;
+}
+
 .flower_meet {
     min-width: 120px;
     padding-top: 90px;
@@ -44,6 +48,10 @@
 
 /* section l'équipe */
 
+.block_staff {
+    max-width: 1400px;
+}
+
 .title_staff {
     text-align: center;
 }
@@ -58,8 +66,9 @@
 }
 
 .flower_staff {
+    max-width: 192px;
     position: absolute;
-    left: 1150px;
+    right: 0%;
     bottom: -12px;
     height: auto;
     z-index: 1;
@@ -68,7 +77,7 @@
 /* section Nous contacter */
 
 .block_form {
-    padding: O !important;
+    padding-bottom: O !important;
 }
 
 .title_form_meet {
@@ -126,12 +135,12 @@
     z-index: 2;
 }
 
-.wp-image-1668 {
+.flower_form {
+    width: 383px !important;
     position: relative;
-    z-index: 1;
-    bottom: 327px;
-    left: 412px;
-    background-image: url(http://localhost:10017/wp-content/uploads/2023/01/feuillage_formulaire.png);
+    z-index: 1 !important;
+    bottom: 326px;
+    left: -101px;
 }
 
 .wp-block-image.size-full.flower_form {
@@ -144,14 +153,22 @@
     background-color: #ECE2DA;
 }
 
-.wp-block-uagb-container.uagb-block-ab5a6445 {
+.wp-image-1645 {
+    width: 100%;
+}
+
+.wp-block-uagb-container.uagb-block-81c6457c {
     padding-bottom: 0 !important;
 }
 
-@media all and (max-width: 850px) {
+/*@media all and (max-width: 850px) {
     .wpcf7-form.init {
         margin-left: 30px;
         margin-right: 30px;
+    }
+
+    .flower_staff {
+        display: none;
     }
 }
 
@@ -187,10 +204,62 @@
         padding-left: 0;
     }
 }
+*/
+
+@media all and (max-width: 1200px) {
+
+    .flower_staff {
+        display: none;
+    }
+}
+
+@media all and (max-width: 768px) {
+
+    .title_meet {
+        font-size: 32px;
+    }
+
+    .flower_meet {
+        display: none;
+    }
+
+    .title_meet {
+        padding-top: 150px;
+    }
+
+    .flower_staff {
+        display: none;
+    }
+
+    .wp-image-1668 {
+        display: none;
+    }
+}
 
 @media all and (max-width: 400px) {
 
+    .title_meet {
+        font-size: 25px !important;
+        padding-top: 180px !important;
+    }
+
+    .flower_meet {
+        display: none;
+    }
+
+    .flower_staff {
+        display: none;
+    }
+
+    .flower_form {
+        display: none;
+    }
+
     .wpcf7-form-control.wpcf7-textarea {
         width: 100%;
+    }
+
+    .wp-image-1668 {
+        display: none;
     }
 }

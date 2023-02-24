@@ -110,7 +110,7 @@ a {
     font-weight: 400;
 }
 
-@media all and (max-width: 982px) {
+@media all and (max-width: 1200px) {
     a {
         padding: 28px 40px 36px 40px;
     }
@@ -122,16 +122,17 @@ a {
         margin-bottom: 5%;
         margin-bottom: auto;
     }
-}
 
-@media all and (max-width: 490px) {
     .nav {
         justify-content: center;
     }
 }
 
 
-/*@media all and (max-width: 700px) {
+
+
+
+    /*@media all and (max-width: 700px) {
 
     .nav {
         background-color: white;
