@@ -11,7 +11,7 @@
 }
 
 .wp-image-1657 {
-    width: 145px;
+    width: 163px;
     height: 150PX;
     position: absolute;
     top: 0px;
@@ -45,7 +45,6 @@
 /* section l'équipe */
 
 .block_staff {
-    max-width: 1400px;
     padding-bottom: 81px;
 }
 
@@ -70,8 +69,10 @@
 
 /* section Nous contacter */
 
-.block_form {
-    padding-bottom: O !important;
+.wp-block-uagb-container.uagb-block-479cdd4a {
+    /*block_form*/
+    padding-bottom: 0px !important;
+    row-gap: 0px;
 }
 
 .title_form_meet {
@@ -118,6 +119,10 @@
     text-align: center;
 }
 
+.wpcf7-form-control.has-spinner.wpcf7-submit {
+    margin-top: 24px;
+}
+
 .form_contact>P {
     text-align: start;
 }
@@ -133,8 +138,8 @@
     width: 383px !important;
     position: relative;
     z-index: 1 !important;
-    bottom: 326px;
-    left: -101px;
+    bottom: 307px;
+    left: -105px;
 }
 
 .wp-block-image.size-full.flower_form {

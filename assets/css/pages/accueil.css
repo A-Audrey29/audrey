@@ -6,9 +6,9 @@
 
 .title_home {
     color: #3B8E46;
+    width: 57% !important;
     padding-top: 105px;
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-bottom: 80px;
 }
 
 .home_picture {
@@ -24,7 +24,6 @@
     border-radius: 0 0 70% 70%;
     box-shadow: 0 10px 0 rgb(225 217 209);
     border: 1px solid rgba(229, 229, 229);
-    color: #ECE2DA;
     background-color: #ECE2DA;
 }
 
@@ -75,13 +74,17 @@
 
 .spectra-image-gallery__media-wrapper--isotope {
     padding: 20px 15px 20px 15px !important;
-
 }
 
 .button_order {
     width: 198px;
     height: 102px;
     padding-top: 47px;
+}
+
+.uagb-button__link {
+    font-size: 15px;
+    font-weight: 400;
 }
 
 /* section pour l'arrondie */
@@ -143,7 +146,7 @@
 }
 
 .wp-block-uagb-container.uagb-is-root-container {
-    margin-left: O !important;
+    margin-left: 0 !important;
     margin-right: 0 !important;
 }
 
@@ -182,10 +185,15 @@
 
 @media all and (max-width: 768px) {
     .title_home {
+        width: 100% !important;
         padding-top: 160px;
-        padding-left: 5%;
-        padding-right: 5%;
+        padding-left: 2px;
+        padding-right: 2px;
         font-size: 30px;
+    }
+
+    .text_plants {
+        width: 95% !important;
     }
 
     .spectra-image-gallery {

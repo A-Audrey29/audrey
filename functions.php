@@ -39,3 +39,12 @@ function wp_child_theme_register_options_page_form()
     </div>
 <?php
 }
+
+add_filter('wp_nav_menu_items', 'add_extra_item_to_nav_menu', 10, 2);
+function add_extra_item_to_nav_menu($items, $args)
+{
+    if (is_user_logged_in()) {
+        $items .= '<li class="wt_menu_item_user_avatar"><a href="' . get_site_url() . '/admin">Admin</a></li>';
+    }
+    return $items;
+}

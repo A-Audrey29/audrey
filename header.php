@@ -19,7 +19,7 @@
             <img class="logo" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/logo.png" alt="logo Planty" />
         </a>
 
-        <nav class="nav_bar_menu">
+        <!--   <nav class="nav_bar_menu">
             <ul class="nav">
                 <li><a class="menu nav_li" href="http://localhost:10017/nous-rencontrer/">Nous rencontrer</a></li>
                 <?php if (is_user_logged_in()) { ?>
@@ -27,7 +27,10 @@
                 <?php } ?>
                 <li><a class="menu commander nav_li" href="http://localhost:10017/commander/">Commander</a></li>
             </ul>
-        </nav>
-        <?php //wp_nav_menu(); 
+        </nav> -->
+        <?php wp_nav_menu(array(
+            'container' => 'nav',
+            'container_class' => 'nav_bar_menu'
+        ));
         ?>
     </header>

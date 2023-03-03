@@ -1,13 +1,13 @@
 .page-id-1671 {
     background-color: #3D9448;
     margin: auto;
-    padding-left: 10px;
-    padding-right: 10px;
 }
 
 .post-1671 {
     max-width: 860px;
     margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .title_order {
@@ -169,9 +169,13 @@
     width: 198px;
     height: 55px;
     color: #FFFFFF;
+    font-size: 15px;
     background-color: #E0B9B4;
-    margin-top: 44px;
     border: 1px solid #E0B9B4;
+}
+
+.order_form_submit {
+    margin-top: 20px;
 }
 
 .wpcf7-form-control.has-spinner.wpcf7-submit {
